@@ -1,15 +1,32 @@
-import React from 'react';
+import React, { useRef, useEffect } from "react";
 import { Container } from './styles/landing-style';
-import videoBackground from './assets/background.mp4'
+import { isReadyStateMatch } from "react-ready-state-effect";
 
-function landing() {
-  return (
+
+
+const Landing = (props) => {
+
+    const VideoReference = useRef(null);
+
+    const { videoSrc } = props
+
+    const HandleVideoByLoad = () => {
+      useEffect(() => {
+        VideoReference.current.muted = true; 
+        VideoReference.current.play()
+
+
+      }, [])
+    }
+   
+
+    isReadyStateMatch(HandleVideoByLoad());
+    return (
       <Container>
-        <video autoPlay  >
-                <source src={videoBackground} type="video/mp4" />
-        </video>
+        <video  title="Advertisement" webkit-playsinline="true" src={videoSrc} ref={VideoReference} />
     </Container>
+
   );
 }
 
-export default landing;
+export default Landing;
