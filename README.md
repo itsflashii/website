@@ -1,2 +1,2 @@
-## Varsel
-Acesse: https://varsel.com.br e aprecie esse repositorio em ação 🔥
+## Varsel:Website
+Acesse: https://varsel.com.br e aprecie esse repositório em ação 💜
