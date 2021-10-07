@@ -42,4 +42,46 @@ export const Container = styled.div`
         margin-top: 330px;
         margin-left: 100px;
     }
+
+    p {
+        position: absolute;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        margin-top: 400px;
+        margin-left: 100px;
+    }
+
+    .arrowDown {
+        position: absolute;
+        margin-top: 400px;
+        margin-left: 210px;
+       
+        -webkit-animation: sdb04 1.5s infinite;
+        animation: sdb04 2.5s infinite;
+    }
+
+
+    @-webkit-keyframes sdb04 {
+  0% {
+    -webkit-transform: rotate(0deg) translate(0, 0);
+  }
+  20% {
+    -webkit-transform: rotate(0deg) translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: rotate(0deg) translate(0, 0);
+  }
+}
+@keyframes sdb04 {
+  0% {
+    transform: rotate(0deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(0deg) translate(-1px, 10px);
+  }
+  40% {
+    transform: rotate(0deg) translate(0, 0);
+  }
+}
+
 `;

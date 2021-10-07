@@ -1,19 +1,19 @@
 import React, { useRef, useEffect } from "react";
 import { Container } from './styles/landing-style';
 import { isReadyStateMatch } from "react-ready-state-effect";
-
+import { MdArrowDownward } from 'react-icons/md'
 
 
 const Landing = (props) => {
 
-    const VideoReference = useRef(null);
+    const backgroundReference = useRef(null);
 
     const { bgVideo, largeText, smallText } = props
   
     isReadyStateMatch(
       useEffect(() => {
-        VideoReference.current.muted = true; 
-        VideoReference.current.play()
+        backgroundReference.current.muted = true; 
+        backgroundReference.current.play()
       }, [])
     );
     
@@ -22,7 +22,9 @@ const Landing = (props) => {
       <Container>
           <h1>{largeText}</h1>
           <span>{smallText}</span>
-          <video  title="BackgroundVideo" webkit-playsinline="true" src={bgVideo} ref={VideoReference} />
+          <p>Descubra mais</p>
+          <MdArrowDownward className="arrowDown" size={20} color="#FFF" />
+          <video  title="BackgroundVideo" webkit-playsinline="true" src={bgVideo} ref={backgroundReference} />
       </Container>
   );
 }
