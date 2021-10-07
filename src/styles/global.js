@@ -13,7 +13,7 @@ export default createGlobalStyle `
     
 
     html, body #root {
-        height: 1000px;
+        height: 100%;
     }
 
     body {

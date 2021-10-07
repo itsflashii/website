@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
 
+    position: relative;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -15,13 +16,13 @@ export const Container = styled.div`
     img {
         width: 100px;
         height: 100px;
-        margin-top: 17px;
+        margin-top: 25px;
         margin-left: 310px;
     }
 
     ul {
         margin-top: -65px;
-        margin-left: 500px;
+        margin-left: 490px;
     }
     
     li{

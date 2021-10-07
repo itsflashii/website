@@ -18,7 +18,7 @@ const Header = () => {
                     <a href="https://">Varsel Source</a>
                 </li>
                 <li>
-                    <a href="https://">Comunidade</a>
+                    <a href="https://">Sobre</a>
                 </li>
             </ul>
         </Container>

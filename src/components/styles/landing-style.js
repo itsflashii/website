@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     
-    position: absolute;
+    position: relative;
     right: 0;
     overflow-y: hidden;
     overflow-x: hidden;
@@ -12,6 +12,7 @@ export const Container = styled.div`
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
+    margin-top: -95px;
     z-index: -1;
     top: 60px;
 
