@@ -13,7 +13,7 @@ export default createGlobalStyle `
     
 
     html, body #root {
-        height: 100%;
+        height: 1000px;
     }
 
     body {
@@ -24,5 +24,20 @@ export default createGlobalStyle `
 
     ul {
         list-style: none;
+    }
+
+    ::-webkit-scrollbar {
+        
+        width: 7px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: #141414;
+  
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #262626;
+
     }
 `;

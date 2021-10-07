@@ -8,24 +8,22 @@ const Landing = (props) => {
 
     const VideoReference = useRef(null);
 
-    const { videoSrc } = props
-
-    const HandleVideoByLoad = () => {
+    const { bgVideo, largeText, smallText } = props
+  
+    isReadyStateMatch(
       useEffect(() => {
         VideoReference.current.muted = true; 
         VideoReference.current.play()
-
-
       }, [])
-    }
-   
-
-    isReadyStateMatch(HandleVideoByLoad());
+    );
+    
+    
     return (
       <Container>
-        <video  title="Advertisement" webkit-playsinline="true" src={videoSrc} ref={VideoReference} />
-    </Container>
-
+          <h1>{largeText}</h1>
+          <span>{smallText}</span>
+          <video  title="BackgroundVideo" webkit-playsinline="true" src={bgVideo} ref={VideoReference} />
+      </Container>
   );
 }
 
