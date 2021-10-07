@@ -62,26 +62,26 @@ export const Container = styled.div`
 
 
     @-webkit-keyframes sdb04 {
-  0% {
-    -webkit-transform: rotate(0deg) translate(0, 0);
-  }
-  20% {
-    -webkit-transform: rotate(0deg) translate(-10px, 10px);
-  }
-  40% {
-    -webkit-transform: rotate(0deg) translate(0, 0);
-  }
-}
-@keyframes sdb04 {
-  0% {
-    transform: rotate(0deg) translate(0, 0);
-  }
-  20% {
-    transform: rotate(0deg) translate(-1px, 10px);
-  }
-  40% {
-    transform: rotate(0deg) translate(0, 0);
-  }
-}
+        0% {
+                -webkit-transform: rotate(0deg) translate(0, 0);
+        }
+        20% {
+                -webkit-transform: rotate(0deg) translate(-10px, 10px);
+        }
+        40% {
+                -webkit-transform: rotate(0deg) translate(0, 0);
+        }
+    }
+    @keyframes sdb04 {
+        0% {
+            transform: rotate(0deg) translate(0, 0);
+        }
+        20% {
+            transform: rotate(0deg) translate(-1px, 10px);
+        }
+        40% {
+            transform: rotate(0deg) translate(0, 0);
+        }
+    }
 
 `;

@@ -8,7 +8,7 @@ const Landing = (props) => {
 
     const backgroundReference = useRef(null);
 
-    const { bgVideo, largeText, smallText } = props
+    const { bgVideo, largeText, smallText, ArrowSmallText } = props
   
     isReadyStateMatch(
       useEffect(() => {
@@ -22,8 +22,14 @@ const Landing = (props) => {
       <Container>
           <h1>{largeText}</h1>
           <span>{smallText}</span>
-          <p>Descubra mais</p>
-          <MdArrowDownward className="arrowDown" size={20} color="#FFF" />
+          <p>{ArrowSmallText}</p>
+
+          <MdArrowDownward 
+            className="arrowDown" 
+            size={17} 
+            color="#FFF" 
+          />
+
           <video  title="BackgroundVideo" webkit-playsinline="true" src={bgVideo} ref={backgroundReference} />
       </Container>
   );
