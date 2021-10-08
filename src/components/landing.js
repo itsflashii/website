@@ -21,12 +21,13 @@ const Landing = (props) => {
     return (
       <Container>
           <h1>{largeText}</h1>
+          
           <span>{smallText}</span>
           <p>{ArrowSmallText}</p>
 
           <MdArrowDownward 
             className="arrowDown" 
-            size={17} 
+            size={19} 
             color="#FFF" 
           />
 

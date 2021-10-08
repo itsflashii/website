@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 
 export const Container = styled.div`
-    
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
     position: relative;
     right: 0;
     overflow-y: hidden;
@@ -44,17 +45,19 @@ export const Container = styled.div`
     }
 
     p {
+        cursor: pointer !important;
         position: absolute;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        margin-top: 400px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        margin-top: 420px;
         margin-left: 100px;
+        z-index: 1;
     }
 
     .arrowDown {
         position: absolute;
-        margin-top: 400px;
-        margin-left: 210px;
+        margin-top: 424px;
+        margin-left: 230px;
        
         -webkit-animation: sdb04 1.5s infinite;
         animation: sdb04 2.5s infinite;
