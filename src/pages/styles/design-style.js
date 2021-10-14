@@ -5,19 +5,20 @@ export const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
     position: relative;
-    height: 490px;
+    height: 700px;
+    background-color: #060607;
     
     h1 {
         position: absolute;
+        width: 490px;
         font-family: 'Poppins', sans-serif;
-        font-weight: 500;
-        font-size: 34px;
+        font-weight: 600;
+        font-size: 30px;
         color: white;
-        
-        top: 70px;
-        left: 675px;
-    }
 
+        top: 280px;
+        left: 305px;
+    }
 
     p {
         position: absolute;
@@ -27,28 +28,18 @@ export const Container = styled.div`
         font-size: 16px;
         color: #737380;
 
-        top: 140px;
-        left: 675px;
+        top: 400px;
+        left: 305px;
+   
     }
+
 
     img {
         position: absolute;
-        width: 300px;
-        top: 50px;
-        left: 300px;
+        width: 390px;
+        top: 112px;
 
+        right: 0;
+        margin-right: 230px;
     }
-`;
-
-export const Cards = styled.div`
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    position: relative;
-    
-    width: 800px;
-   // border: 1px solid red;
-    top: -200px;
-    left: 590px;
-
 `;
