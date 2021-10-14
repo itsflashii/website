@@ -41,3 +41,13 @@ export const Container = styled.div`
     z-index: 1;
   }
 `;
+
+export const Cards = styled.div`
+    display: flex;
+    position: absolute;
+    
+    width: 700px;
+   // border: 1px solid red;
+    margin-top: -250px;
+    margin-left: 50px;
+`; 

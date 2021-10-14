@@ -9,12 +9,15 @@
         <>
            
             <Landing 
-            bgVideo={backgroundVideo}
-            largeText='Versatilidade na web, mobile & desktop.'
-            smallText='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an u.' 
-            ArrowSmallText='Descubra mais'
+              bgVideo={backgroundVideo}
+              largeText='Versatilidade na web, mobile & desktop.'
+              smallText='Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an u.' 
+              ArrowSmallText='Descubra mais'
             />
-            <About />
+            <About
+              largeText='Por que contratar a Varsel ?'
+              smallText='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus'
+            />
             <GlobalStyles />
         </>
       );

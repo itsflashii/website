@@ -1,14 +1,30 @@
 import React from 'react';
-import { Container } from './styles/about-style'
-import MobileLogin from '../assets/undraw_mobile_login.png'
+import { Container, Cards } from './styles/about-style';
+import MobileLogin from '../assets/undraw_mobile_login.png';
+import InfoCard from '../components/infoCard';
 
-const About = () => {
+const About = (props) => {
+    const { smallText, largeText } = props
+    
+
     return (
+        <>
         <Container>
-            <h1>Por que contratar a Varsel ?</h1>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus</p>
+            <h1>{largeText}</h1>
+            <p>{smallText}</p>
             <img src={MobileLogin} alt="Mobile App" />
         </Container>
+        <Cards>
+            <InfoCard
+                cardLargeText="Texto 1"
+                cardSmallText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor." 
+            />
+            <InfoCard
+                cardLargeText="Texto 2"
+                cardSmallText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor." 
+            />
+        </Cards>
+        </>
     )
 }
 export default About;
