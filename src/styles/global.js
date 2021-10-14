@@ -12,6 +12,15 @@ export default createGlobalStyle `
 
        // overflow-x: hidden;
        // border: 1px solid red; // DEBUG
+
+
+       border: 0;
+       outline: 0;
+       vertical-align: baseline;
+       font-weight: inherit;
+       font-family: inherit;
+       font-style: inherit;
+       font-size: 100%;
     }
 
     

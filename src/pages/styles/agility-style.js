@@ -15,7 +15,7 @@ export const Container = styled.div`
         color: white;
         
         top: 70px;
-        left: 640px;
+        left: 675px;
     }
 
 
@@ -28,7 +28,7 @@ export const Container = styled.div`
         color: #737380;
 
         top: 140px;
-        left: 640px;
+        left: 675px;
     }
 
     img {
@@ -48,7 +48,7 @@ export const Cards = styled.div`
     
     width: 800px;
    // border: 1px solid red;
-    top: -370px;
-    left: 550px;
+    top: -380px;
+    left: 590px;
 
 `;
