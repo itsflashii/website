@@ -9,12 +9,15 @@ export default createGlobalStyle `
         padding: 0;
         outline: 0;
         box-sizing: border-box;
+
+       // overflow-x: hidden;
+       // border: 1px solid red; // DEBUG
     }
 
     
 
     html, body #root {
-        height: 1000%;
+        height: 100%;
     }
 
     body {

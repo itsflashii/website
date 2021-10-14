@@ -5,6 +5,7 @@ export const Card = styled.div`
     position: relative;
     width: 300px;
     margin-left: 90px;
+    padding-bottom: 50px;
     
     h2 {
         color: white;

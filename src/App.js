@@ -3,6 +3,7 @@
  import Landing from './pages/landing'
  import backgroundVideo from './assets/background.mp4'
  import About from './pages/about'
+ import Agility from './pages/agility'
 
  function App() {
       return (
@@ -18,6 +19,7 @@
               largeText='Por que contratar a Varsel ?'
               smallText='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus'
             />
+            <Agility />
             <GlobalStyles />
         </>
       );

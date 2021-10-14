@@ -4,50 +4,52 @@ export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+  position: relative;
   height: 700px;
   background-color: #060607;
 
   h1 {
-    position: absolute;
+    width: 500px;
+    position: relative;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 35px;
     color: white;
 
-    margin-top: 150px;
-    margin-left: 150px;
+    top: 150px;
+    left: 190px;
   }
 
   p {
-    position: absolute;
+    position: relative;
     width: 650px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     color: #737380;
 
-    margin-top: 220px;
-    margin-left: 150px;
+    top: 170px;
+    left: 190px;
   }
 
   img {
     position: absolute;
     width: 550px;
     height: auto;
-    right: 0;
+    // right: 0;
 
-    margin-right: 170px;
-    margin-top: 70px;
+    right: 110px;
+    top: 70px;
     z-index: 1;
   }
 `;
 
 export const Cards = styled.div`
     display: flex;
-    position: absolute;
+    position: relative;
     
     width: 700px;
    // border: 1px solid red;
-    margin-top: -250px;
-    margin-left: 50px;
+    top: -290px;
+    left: 100px;
 `; 
