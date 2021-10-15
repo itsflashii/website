@@ -1,10 +1,9 @@
 import React from 'react';
 import { Container, Cards } from './styles/about-style';
-import MobileLogin from '../assets/undraw_mobile_login.png';
 import InfoCard from '../components/infoCard';
 
 const About = (props) => {
-    const { smallText, largeText } = props
+    const { smallText, largeText, propImage } = props
     
 
     return (
@@ -12,7 +11,7 @@ const About = (props) => {
         <Container>
             <h1>{largeText}</h1>
             <p>{smallText}</p>
-            <img src={MobileLogin} alt="Mobile App" />
+            <img src={propImage} alt="Mobile App" />
         </Container>
         <Cards>
             <InfoCard

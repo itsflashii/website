@@ -1,21 +1,19 @@
 import React from 'react';
 import { Container, Cards } from './styles/agility-style';
-import propImage from '../assets/propImage.png'
 import InfoCard from '../components/infoCard';
 
 const Agility = (props) => {
-
-    const { agSmallText, agLargeText } = props
+    const { largeText, smallText, propImage } = props
 
     return (
         <>
         <Container>
             <img src={propImage} alt="Agilidade / Qualidade." />
-            <h1>{agLargeText}</h1>
-            <p>{agSmallText}</p>
+            <h1>{largeText}</h1>
+            <p>{smallText}</p>
         </Container>
-            <Cards>
 
+        <Cards>
             <InfoCard
                 cardLargeText="Front-End"
                 cardSmallText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " 
@@ -29,12 +27,11 @@ const Agility = (props) => {
                 cardLargeText="UI/UX"
                 cardSmallText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " 
             />
-                        <InfoCard
+            <InfoCard
                 cardLargeText="Designers/Editores"
                 cardSmallText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " 
             />
-
-            </Cards>
+        </Cards>
         </>
     )
 }
