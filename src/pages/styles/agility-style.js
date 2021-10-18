@@ -6,7 +6,8 @@ export const Container = styled.div`
 
     position: relative;
     height: 490px;
-    
+    scroll-snap-align: start;
+
     h1 {
         position: absolute;
         font-family: 'Poppins', sans-serif;

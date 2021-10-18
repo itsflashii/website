@@ -20,7 +20,7 @@ import MobileLogin from './assets/undraw_mobile_login.png';
             />
             <About
               largeText='Por que contratar a Varsel ?'
-              smallText='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculusLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus'
+              smallText='A pergunta mas certa seria , "Por que não contratar a Varsel. temos uma equipe qualificada e flexível a todo tipo de empreendimento e projeto, contando com a nossa versatilidade e qualidade. todos nossos projetos e automações são feito utilizando as ferramentas mais atualizadas do mercado. Melhorando e otimizando ainda mais seu projeto. Ainda não está satisfeito? Tem mais, todos passam por um selo de qualidade & segurança de vários profissionais da area. O que você está esperando? venha fazer parte do nosso mundo.'
               propImage={MobileLogin}
             />
             <Agility 

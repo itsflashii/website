@@ -26,7 +26,12 @@ export default createGlobalStyle `
     
 
     html, body #root {
-        height: 1000%;
+        height: 100vh;
+        scroll-snap-type: y mandatory;
+        
+        overflow-y: scroll;
+
+
     }
 
     body {
