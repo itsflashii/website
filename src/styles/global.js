@@ -11,7 +11,7 @@ export default createGlobalStyle `
         box-sizing: border-box;
 
        // overflow-x: hidden;
-       // border: 1px solid red; // DEBUG
+       //border: 1px solid red; // DEBUG
 
 
        border: 0;
@@ -26,10 +26,11 @@ export default createGlobalStyle `
     
 
     html, body #root {
+        /* HEIGHT DEVE FICAR EM 100VH! */
         height: 100vh;
-        scroll-snap-type: y mandatory;
+        scroll-snap-type: y mandatory; 
         
-        overflow-y: scroll;
+       overflow-y: scroll;
 
 
     }

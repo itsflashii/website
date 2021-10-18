@@ -8,6 +8,7 @@ import Design from './pages/design';
 import AgilityLarge from './assets/propImage.png'
 import Phone from './assets/celular.png'
 import MobileLogin from './assets/undraw_mobile_login.png';
+import Testimonials from "./pages/testimonials";
 
  function App() {
       return (
@@ -33,7 +34,8 @@ import MobileLogin from './assets/undraw_mobile_login.png';
               smallText='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
               propImage={Phone}
             />
-            
+            <Testimonials />
+
             <GlobalStyles />
         </>
       );

@@ -29,7 +29,7 @@ export const Container = styled.div`
         font-size: 16px;
         color: #737380;
 
-        top: 400px;
+        top: 380px;
         left: 305px;
    
     }
