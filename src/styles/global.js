@@ -30,9 +30,11 @@ export default createGlobalStyle `
     }
 
     body {
+        margin: 10px 0px;
         background-color: #000000;
         color: #333;
         -webkit-font-smoothing: antialiased !important;
+        overflow-x: hidden;
     }
 
     ul {

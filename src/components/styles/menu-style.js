@@ -14,15 +14,13 @@ export const Container = styled.div`
 
 
     img {
-        width: 100px;
-        height: 100px;
         margin-top: 25px;
-        margin-left: 310px;
+        margin-left: 60px;
     }
 
     ul {
         margin-top: -65px;
-        margin-left: 490px;
+        text-align: center;
     }
     
     li{

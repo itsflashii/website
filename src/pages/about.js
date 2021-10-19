@@ -12,7 +12,7 @@ const About = (props) => {
         <Container>
             <h1>{largeText}</h1>
             <p>{smallText}</p>
-            <img src={MobileLogin} alt="Mobile App" />
+            <img className="responsiNo" src={MobileLogin} alt="Mobile App" />
         </Container>
         <Cards>
             <InfoCard
