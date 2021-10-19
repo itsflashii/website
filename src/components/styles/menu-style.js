@@ -11,7 +11,7 @@ export const Container = styled.div`
     padding: 0 30px;
     color: #FFFFFF;
     align-items: center;
-
+    scroll-snap-align: center;
 
     img {
         margin-top: 25px;

@@ -7,7 +7,8 @@ export const Container = styled.div`
     position: relative;
     height: 700px;
     background-color: #060607;
-    
+    scroll-snap-align: center;
+        
     h1 {
         position: absolute;
         width: 490px;
@@ -28,7 +29,7 @@ export const Container = styled.div`
         font-size: 16px;
         color: #737380;
 
-        top: 400px;
+        top: 380px;
         left: 305px;
    
     }

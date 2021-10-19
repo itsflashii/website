@@ -6,7 +6,8 @@ export const Container = styled.div`
 
     position: relative;
     height: 490px;
-    
+    scroll-snap-align: start;
+
     h1 {
         position: absolute;
         font-family: 'Poppins', sans-serif;
@@ -14,7 +15,7 @@ export const Container = styled.div`
         font-size: 34px;
         color: white;
         
-        top: 70px;
+        top: 100px;
         left: 675px;
     }
 
@@ -27,14 +28,14 @@ export const Container = styled.div`
         font-size: 16px;
         color: #737380;
 
-        top: 140px;
+        top: 160px;
         left: 675px;
     }
 
     img {
         position: absolute;
         width: 300px;
-        top: 50px;
+        top: 100px;
         left: 300px;
 
     }
@@ -48,7 +49,7 @@ export const Cards = styled.div`
     
     width: 800px;
    // border: 1px solid red;
-    top: -200px;
+    top: -160px;
     left: 590px;
 
 `;

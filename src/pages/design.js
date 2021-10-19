@@ -1,13 +1,15 @@
 import React from 'react';
 import { Container } from './styles/design-style';
-import Phone from '../assets/celular.png'
 
-const Design = () => {
+
+const Design = (props) => {
+    const { largeText, smallText, propImage } = props
+    
     return (
         <Container>
-            <img src={Phone} alt="Phone" />
-            <h1>Design de acordo com seu gosto & marca.</h1>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.</p>
+            <img src={propImage} alt="Phone" />
+            <h1>{largeText}</h1>
+            <p>{smallText}</p>
         </Container>
     )
 }
