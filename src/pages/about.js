@@ -11,11 +11,7 @@ const About = (props) => {
         <Container>
             <h1>{largeText}</h1>
             <p>{smallText}</p>
-<<<<<<< HEAD
-            <img className="responsiNo" src={MobileLogin} alt="Mobile App" />
-=======
             <img src={propImage} alt="Mobile App" />
->>>>>>> bd2deb00eb45a26e66780659d209e67f9828cf33
         </Container>
         <Cards>
             <InfoCard
