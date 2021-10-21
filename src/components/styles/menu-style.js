@@ -11,7 +11,7 @@ export const Container = styled.div`
     padding: 0 30px;
     color: #FFFFFF;
     align-items: center;
-    scroll-snap-align: center;
+    /*scroll-snap-align: center;*/
 
     img {
         margin-top: 25px;
@@ -36,5 +36,53 @@ export const Container = styled.div`
 
     a:hover {
         color: #FFFFFF;
+    }
+
+    @media only screen and (min-width: 730px) and (max-width: 820px) {
+        ul {
+            text-align: end;
+        }
+
+        li {
+            margin-left: 90px;
+        }
+    }
+
+    @media only screen and (min-width: 683px) and (max-width: 730px) {
+        ul {
+            text-align: end;
+        }
+
+        li {
+            margin-left: 70px;
+        }
+    }
+
+    @media only screen and (min-width: 565px) and (max-width: 683px) {
+        ul {
+            text-align: end;
+        }
+
+        li {
+            margin-left: 50px;
+        }
+
+        img {
+            margin-left: 10px;
+        }
+    }
+
+    @media only screen and (min-width: 525px) and (max-width: 565px) {
+        ul {
+            text-align: end;
+        }
+
+        li {
+            margin-left: 30px;
+        }
+
+        img {
+            margin-left: 5px;
+        }
     }
 `;
