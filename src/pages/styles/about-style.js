@@ -46,7 +46,7 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 1249px) and (max-width: 1400px) {
 
-    .responsiNo {
+    img {
       top: 200px;
 
       width: 350px;
@@ -56,7 +56,7 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 1160px) and (max-width: 1249px) {
 
-    .responsiNo {
+    img {
       top: 195px;
       margin-right: -65px;
 

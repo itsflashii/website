@@ -29,13 +29,6 @@ export default createGlobalStyle `
         /* HEIGHT DEVE FICAR EM 100VH! */
         height: 100vh;
         /*scroll-snap-type: y mandatory;*/ 
-<<<<<<< HEAD
-=======
-        
-       overflow-y: scroll;
-
-
->>>>>>> 8086eeaddc4a22cb7107a2f2b5ceefc4f1a179ab
     }
 
     body {
