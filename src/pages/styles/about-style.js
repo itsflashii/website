@@ -8,7 +8,7 @@ export const Container = styled.div`
   height: 700px;
   background-color: #060607;
 
-  scroll-snap-align: center;
+  /*scroll-snap-align: center;*/
 
   h1 {
     position: relative;
@@ -67,7 +67,7 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 1110px) and (max-width: 1160px) {
 
-    .responsiNo {
+    img {
       top: 195px;
       margin-right: -80px;
 
@@ -78,37 +78,117 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 50px) and (max-width: 1110px) {
 
-    .responsiNo {
+    img {
       display: none;
     }
     
   }
 
-  @media only screen and (min-width: 460px) and (max-width: 569px) {
+  @media only screen and (min-width: 700px) and (max-width: 800px) {
+    h1 {
+      left: 92px;
+    }
+
+    p {
+      left: 95px;
+    }
+  }
+
+  @media only screen and (min-width: 690px) and (max-width: 760px) {
+    h1 {
+      left: 78px;
+    }
+
+    p {
+      width: 570px;
+      left: 80px;
+    }
+  }
+
+  @media only screen and (min-width: 569px) and (max-width: 690px) { /*TERMINAR*/
 
     h1 {
       font-size: 32px;
       width: 400px;
+
+      left: 72px;
     }
-    
+
+    p {
+      width: 450px;
+      font-size: 15px;
+
+      left: 75px;
+    }
+
   }
 
-  @media only screen and (min-width: 200px) and (max-width: 800px) {
+  @media only screen and (min-width: 552px) and (max-width: 569px) {
 
     h1 {
-      left: 80px;
+      font-size: 32px;
+      width: 400px;
+
+      left: 62px;
+    }
+
+    p {
+      width: 450px;
+      font-size: 15px;
+
+      left: 65px;
+    }
+  }
+
+  @media only screen and (min-width: 490px) and (max-width: 552px) {
+
+    h1 {
+      font-size: 30px;
+      width: 417px;
+
+      left: 34px;
     }
 
     p {
       width: 450px;
       font-size: 14px;
-      left: 80px;
+
+      left: 34px;
+    }
+  }
+
+  @media only screen and (min-width: 475px) and (max-width: 490px) {
+
+    h1 {
+      font-size: 27px;
+      width: 375px;
+
+      left: 30px;
     }
 
-    .responsiNo {
-      display: none;
+    p {
+      width: 450px;
+      font-size: 13px;
+
+      left: 30px;
     }
-    
+  }
+
+    @media only screen and (min-width: 300px) and (max-width: 475px) {
+
+      h1 {
+        font-size: 27px;
+        width: 375px;
+  
+        left: 22px;
+      }
+  
+      p {
+        width: 420px;
+        font-size: 13px;
+  
+        left: 22px;
+      }
   }
 
 
@@ -124,9 +204,42 @@ export const Cards = styled.div`
     top: -290px;
     left: 45px;
 
-    @media only screen and (min-width: 300px) and (max-width: 800px) {
+    @media only screen and (min-width: 700px) and (max-width: 800px) {
+      left: 24px!important;
+    }
 
+    @media only screen and (min-width: 300px) and (max-width: 800px) {
       left: 0px;
     }
+
+    @media only screen and (min-width: 690px) and (max-width: 760px) {
+      top: -295px!important;
+      left: 0px!important;
+    }
+
+    @media only screen and (min-width: 340px) and (max-width: 552px) {
+      top: -310px!important;
+      left: -40px!important;
+    }
+    
+    @media only screen and (min-width: 340px) and (max-width: 475px) {
+      top: -340px!important;
+      left: -50px!important:
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 340px) {
+      top: -320px!important;
+      left: -40px!important;
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 700px) {
+      top: -230px;
+    }
+
+    @media only screen and (min-width: 460px) and (max-width: 569px) {
+      top: -245px;
+      left: -10px;
+    }
+
 
 `; 

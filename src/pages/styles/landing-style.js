@@ -12,15 +12,14 @@ export const Container = styled.div`
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
-    padding: 20px;
     top: -95px;
     z-index: -1;
     top: 60px;
-    scroll-snap-align: center;
+    /*scroll-snap-align: center;*/
 
     video {
-        min-width: 100%;
-        min-height: 100%;
+        width: 100%;
+        float: right;
         
     }
 
@@ -66,7 +65,6 @@ export const Container = styled.div`
         -webkit-animation: sdb04 1.5s infinite;
         animation: sdb04 2.5s infinite;
     }
-
 
     @-webkit-keyframes sdb04 {
         0% {

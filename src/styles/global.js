@@ -28,11 +28,7 @@ export default createGlobalStyle `
     html, body #root {
         /* HEIGHT DEVE FICAR EM 100VH! */
         height: 100vh;
-        scroll-snap-type: y mandatory; 
-        
-       overflow-y: scroll;
-
-
+        /*scroll-snap-type: y mandatory;*/ 
     }
 
     body {

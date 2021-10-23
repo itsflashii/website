@@ -26,4 +26,25 @@ export const Card = styled.div`
         width: 35px;
         padding-bottom: 15px;
     }
+
+    @media only screen and (min-width: 475px) and (max-width: 490px) {
+        h2 {
+            font-size: 17px;
+        }
+
+        p {
+            font-size: 13px;
+        }
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 475px) {
+        h2 {
+            font-size: 15px;
+        }
+        
+        p {
+            font-size: 11px;
+        }
+
+    }
 `;
