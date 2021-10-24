@@ -11,7 +11,7 @@ export const TestiMonialCard = styled.div`
   height: 200px;
   background-color: #060607;
   border-radius: 5px;
-  margin-left: 50px;
+  margin-left: 30px;
   margin-bottom: 20px;
 
   
@@ -55,6 +55,15 @@ export const TestiMonialCard = styled.div`
     top: 55px;
     left: 80px;
   }
+
+  @media only screen and (min-width: 846px) and (max-width: 986px) {
+    margin-left: -40px;
+  }
+
+  @media only screen and (min-width: 700x) and (max-width: 846px) {
+    margin-left: -80px;
+  }
+
 `;
 
 

@@ -24,6 +24,44 @@ export const Container = styled.div`
       top: 110px;
       left: 150px;
   }
+
+  @media only screen and (min-width: 846px) and (max-width: 986px) {
+    h1 {
+      left: 100px;
+    }
+
+    p {
+      left: 100px;
+    }
+
+  }
+
+  @media only screen and (min-width: 546px) and (max-width: 846px) {
+
+    h1 {
+      left: 50px;
+    }
+
+    p {
+      left: 50px;
+    }
+
+  }
+
+  @media only screen and (min-width: 300px) and (max-width: 546px) {
+
+    h1 {
+      font-size: 20px;
+      left: 20px;
+    }
+
+    p {
+      font-size: 10px;
+      left: 20px;
+    }
+
+  }
+
 `;
 
 export const ContainerTestimonail = styled.div`
