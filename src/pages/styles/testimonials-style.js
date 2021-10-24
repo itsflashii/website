@@ -48,16 +48,45 @@ export const Container = styled.div`
 
   }
 
-  @media only screen and (min-width: 300px) and (max-width: 546px) {
+  @media only screen and (min-width: 458px) and (max-width: 560px) {
 
     h1 {
-      font-size: 20px;
+      font-size: 25px;
       left: 20px;
     }
 
     p {
-      font-size: 10px;
+      font-size: 17px;
       left: 20px;
+    }
+
+  }
+
+  @media only screen and (min-width: 410px) and (max-width: 458px) {
+
+    h1 {
+      font-size: 22px;
+      left: 20px;
+    }
+
+    p {
+      font-size: 15px;
+      left: 20px;
+    }
+
+  }
+
+  @media only screen and (min-width: 300px) and (max-width: 410px) {
+
+    h1 {
+      width: 339px;
+      font-size: 20px;
+      left: 17px;
+    }
+
+    p {
+      font-size: 14px;
+      left: 17px;
     }
 
   }
