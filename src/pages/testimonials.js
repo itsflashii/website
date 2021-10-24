@@ -9,8 +9,8 @@ const Testimonials = () => {
             <Container>
                 <h1>Ajudando milhares de empresas a antingirem o potencial máximo.</h1>
                 <p>Veja o que algumas delas disseram:</p>
-
-                <ContainerTestimonail>
+            </Container>
+            <ContainerTestimonail>
                     <Testimonial 
                     message="“Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.”"
                     person="Vítor Ribeiro"
@@ -36,7 +36,6 @@ const Testimonials = () => {
                     />
                     
                 </ContainerTestimonail>
-            </Container>
         </>
     );
 }

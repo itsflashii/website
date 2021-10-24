@@ -16,11 +16,12 @@ export const TestiMonialCard = styled.div`
 
   
   p {
+    position: relative;
     width: 93%;
     height: 80px;
     color: #C2C2C2;
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     top: 27px;
     left: 15px;
   }
