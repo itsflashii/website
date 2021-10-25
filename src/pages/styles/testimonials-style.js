@@ -101,4 +101,14 @@ export const ContainerTestimonail = styled.div`
     width: 90%;
     top: 150px;
     left: 130px;
+
+    @media only screen and (min-width: 770px) and (max-width: 846px) {
+      margin-left: 90px;
+      left: -45px;
+    }
+
+    @media only screen and (min-width: 846px) and (max-width: 986px) {
+      margin-left: 85px;
+      left: -25px;
+    }
 `;

@@ -58,11 +58,15 @@ export const TestiMonialCard = styled.div`
   }
 
   @media only screen and (min-width: 846px) and (max-width: 986px) {
-    margin-left: -40px;
+    margin-left: 30px;
+
+    width: 340px;
   }
 
   @media only screen and (min-width: 700px) and (max-width: 846px) {
-    margin-left: -80px;
+    width: 330px;
+
+    margin-left: 15px;
   }
 
   @media only screen and (min-width: 458px) and (max-width: 560px) {
