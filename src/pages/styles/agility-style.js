@@ -5,7 +5,6 @@ export const Container = styled.div`
 
     position: relative;
     height: 490px;
-    scroll-snap-align: center;
 
     h1 {
         position: absolute;

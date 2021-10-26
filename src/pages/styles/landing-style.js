@@ -16,7 +16,6 @@ export const Container = styled.div`
     top: -95px;
     z-index: -1;
     top: 60px;
-    scroll-snap-align: top;
 
     video {
         width: 100%;
