@@ -7,7 +7,7 @@ export const Container = styled.div`
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 14px;
-    height: 80px;
+    height: 96px;
     padding: 0 30px;
     color: #FFFFFF;
     align-items: center;

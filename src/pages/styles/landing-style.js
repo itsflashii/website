@@ -20,7 +20,6 @@ export const Container = styled.div`
     video {
         width: 100%;
         float: right;
-        
     }
 
     h1 {
@@ -31,7 +30,6 @@ export const Container = styled.div`
         font-weight: 700;
         top: 170px;
         left: 140px;
-        
     }
 
     span {
@@ -43,7 +41,6 @@ export const Container = styled.div`
         font-weight: 400;
         top: 280px;
         left: 140px;
-        
     }
 
     p {
@@ -64,6 +61,93 @@ export const Container = styled.div`
        
         -webkit-animation: sdb04 1.5s infinite;
         animation: sdb04 2.5s infinite;
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 1210px) {
+        height: 760px;
+        top: 0px;
+
+        video {
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 900px) and (max-width: 1210px) {
+        h1 {
+            left: 37%;
+        }
+    
+        p {
+            left: 37%;
+        }
+        
+        span {
+            left: 37%;
+        }
+
+        .arrowDown {/* ARRUMAR */
+            left: 40%;
+        }
+    }
+
+    @media only screen and (min-width: 628px) and (max-width: 900px) {
+        h1 {
+            left: 27%;
+        }
+    
+        p {
+            left: 27%;
+        }
+        
+        span {
+            left: 27%;
+        }
+
+        .arrowDown {/* ARRUMAR */
+            left: 40%;
+        }
+    }
+
+    @media only screen and (min-width: 504px) and (max-width: 628px) {
+        h1 {
+            left: 40px;
+        }
+    
+        p {
+            left: 40px;
+        }
+        
+        span {
+            left: 40px;
+        }
+
+        .arrowDown {/* ARRUMAR */
+            left: 40%;
+        }
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 504px) {
+        h1 {
+            font-size: 27px;
+            width: 412px;
+            top: 210px;
+            left: 40px;
+        }
+    
+        p {
+            top: 361px;
+            left: 40px;
+        }
+        
+        span {
+            width: 410px;
+            left: 40px;
+        }
+
+        .arrowDown {/* ARRUMAR */
+            top: 366px;
+            left: 178px;
+        }
     }
 
     @-webkit-keyframes sdb04 {
