@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
+  //  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
     
     position: relative;
     font-family: 'Poppins', sans-serif;
@@ -11,11 +11,11 @@ export const Container = styled.div`
     padding: 0 30px;
     color: #FFFFFF;
     align-items: center;
-    /*scroll-snap-align: center;*/
+    scroll-snap-align: center;
 
     img {
         margin-top: 25px;
-        margin-left: 60px;
+        margin-left: 260px;
     }
 
     ul {

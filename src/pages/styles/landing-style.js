@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    
 
     position: relative;
     right: 0;
@@ -15,7 +16,7 @@ export const Container = styled.div`
     top: -95px;
     z-index: -1;
     top: 60px;
-    /*scroll-snap-align: center;*/
+    scroll-snap-align: top;
 
     video {
         width: 100%;
@@ -28,7 +29,7 @@ export const Container = styled.div`
         width: 500px;
         font-family: 'Roboto', sans-serif;
         font-size: 40px;
-        font-weight: 600;
+        font-weight: 700;
         top: 170px;
         left: 140px;
         

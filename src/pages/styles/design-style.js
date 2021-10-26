@@ -2,12 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
     position: relative;
     height: 700px;
     background-color: #060607;
-    /*scroll-snap-align: center;*/
+    scroll-snap-align: center;
         
     h1 {
         position: absolute;

@@ -1,5 +1,4 @@
 import React from "react";
-import GlobalStyles from './styles/global';
 import Landing from './pages/landing';
 import backgroundVideo from './assets/background.mp4';
 import About from './pages/about';
@@ -9,10 +8,13 @@ import AgilityLarge from './assets/propImage.png'
 import Phone from './assets/celular.png'
 import MobileLogin from './assets/undraw_mobile_login.png';
 import Testimonials from "./pages/testimonials";
+import Menu from './components/menu'
 
  function App() {
       return (
         <>
+          <Menu />
+
             <Landing 
               bgVideo={backgroundVideo}
               largeText='Versatilidade na web, mobile & desktop.'
@@ -36,7 +38,7 @@ import Testimonials from "./pages/testimonials";
             />
             <Testimonials />
 
-            <GlobalStyles />
+          
         </>
       );
 }

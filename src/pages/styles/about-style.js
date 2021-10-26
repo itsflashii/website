@@ -2,13 +2,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
   position: relative;
   height: 700px;
   background-color: #060607;
 
-  /*scroll-snap-align: center;*/
+  scroll-snap-align: center;
 
   h1 {
     position: relative;
@@ -224,7 +223,7 @@ export const Cards = styled.div`
     
     @media only screen and (min-width: 340px) and (max-width: 475px) {
       top: -340px!important;
-      left: -50px!important:
+      left: -50px!important;
     }
 
     @media only screen and (min-width: 300px) and (max-width: 340px) {

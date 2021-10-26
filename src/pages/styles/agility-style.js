@@ -2,11 +2,10 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
     position: relative;
     height: 490px;
-    /*scroll-snap-align: center;*/
+    scroll-snap-align: center;
 
     h1 {
         position: absolute;
@@ -15,7 +14,7 @@ export const Container = styled.div`
         font-size: 34px;
         color: white;
         
-        top: 100px;
+        top: 10px;
         left: 675px;
     }
 
@@ -28,14 +27,14 @@ export const Container = styled.div`
         font-size: 16px;
         color: #737380;
 
-        top: 160px;
+        top: 80px;
         left: 675px;
     }
 
     img {
         position: absolute;
         width: 300px;
-        top: 100px;
+        top: 10px;
         left: 300px;
 
     }
@@ -49,7 +48,7 @@ export const Cards = styled.div`
     
     width: 800px;
    // border: 1px solid red;
-    top: -160px;
+    top: -260px;
     left: 590px;
 
 `;

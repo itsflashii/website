@@ -1,8 +1,9 @@
 import React from "react";
 import { Container } from './styles/landing-style';
+
 //import { isReadyStateMatch } from "react-ready-state-effect";
 import { MdArrowDownward } from 'react-icons/md'
-import Menu from '../components/menu'
+
 
 const Landing = (props) => {
 
@@ -10,7 +11,7 @@ const Landing = (props) => {
     
     return (
       <>
-      <Menu />
+     
       <Container>
           <h1>{largeText}</h1>
           
