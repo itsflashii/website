@@ -40,7 +40,7 @@ export const Container = styled.div`
 
     @media only screen and (min-width: 846px) and (max-width: 986px) {
         img {
-            left: ;
+            left:10px ;
         }
     }
 `;

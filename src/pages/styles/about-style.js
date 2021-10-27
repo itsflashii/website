@@ -53,7 +53,7 @@ export const Container = styled.div`
   }
 
 
-  @media only screen and (min-width: 0px) and (max-width: 1400px) {
+  @media only screen and (min-width: 0px) and (max-width: 900px) {
 
     margin-top: -150px;
 
