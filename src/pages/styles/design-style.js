@@ -4,8 +4,8 @@ export const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
     position: relative;
-    height: 700px;
-    background-color: #060607;
+    height: 625px;
+    background-color: red;
         
     h1 {
         position: absolute;
@@ -64,6 +64,8 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 995px) and (max-width: 1100px) {
+        height: 522px;
+        
         img {
             width: 300px;
             height: 410px;
@@ -82,6 +84,8 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 887px) and (max-width: 995px) {
+        height: 512px;
+
         img {
             width: 290px;
             height: 400px;
@@ -102,6 +106,8 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 844px) and (max-width: 887px) {
+        height: 492px;
+
         img {
             width: 270px;
             height: 380px;
@@ -122,6 +128,8 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 800px) and (max-width: 844px) {
+        height: 492px;
+        
         img {
             width: 270px;
             height: 380px;
