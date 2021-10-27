@@ -26,7 +26,6 @@ export default createGlobalStyle `
     html, body #root {
         /* HEIGHT DEVE FICAR EM 100VH! */
         height: 100vh;
-        overflow-x: hidden;
     }
 
     body {

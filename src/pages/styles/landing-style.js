@@ -83,6 +83,7 @@ export const Container = styled.div`
         }
     }
 
+
     @media only screen and (min-width: 900px) and (max-width: 1210px) {
         h1 {
             left: 37%;

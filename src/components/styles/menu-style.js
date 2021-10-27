@@ -37,6 +37,21 @@ export const Container = styled.div`
         color: #FFFFFF;
     }
 
+
+    @media only screen and (min-width: 962px) and (max-width: 1342px) {
+        img {
+            margin-left: 70px;
+        }
+    }
+
+
+
+    @media only screen and (min-width: 820px) and (max-width: 962px) {
+        img {
+            margin-left: 15px;
+        }
+    }
+
     @media only screen and (min-width: 730px) and (max-width: 820px) {
         ul {
             display: none;
