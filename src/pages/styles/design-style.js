@@ -5,7 +5,7 @@ export const Container = styled.div`
 
     position: relative;
     height: 625px;
-    background-color: red;
+    background-color: #060607;
         
     h1 {
         position: absolute;
