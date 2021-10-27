@@ -14,7 +14,7 @@ export const Container = styled.div`
         color: white;
         
         top: 10px;
-        left: 675px;
+        left: 500px;
     }
 
 
@@ -27,15 +27,21 @@ export const Container = styled.div`
         color: #737380;
 
         top: 80px;
-        left: 675px;
+        left: 500px;
     }
 
     img {
         position: absolute;
         width: 300px;
         top: 10px;
-        left: 300px;
+        left: 100px;
 
+    }
+
+    @media only screen and (min-width: 846px) and (max-width: 986px) {
+        img {
+            left: ;
+        }
     }
 `;
 
@@ -48,6 +54,6 @@ export const Cards = styled.div`
     width: 800px;
    // border: 1px solid red;
     top: -260px;
-    left: 590px;
+    left: 415px;
 
 `;
