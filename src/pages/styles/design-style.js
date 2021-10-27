@@ -16,7 +16,7 @@ export const Container = styled.div`
         color: white;
 
         top: 280px;
-        left: 305px;
+        left: 80px;
     }
 
     p {
@@ -28,7 +28,7 @@ export const Container = styled.div`
         color: #737380;
 
         top: 380px;
-        left: 305px;
+        left: 80px;
    
     }
 
@@ -39,6 +39,178 @@ export const Container = styled.div`
         top: 112px;
 
         right: 0;
-        margin-right: 230px;
+        margin-right: 130px;
     }
+
+    @media only screen and (min-width: 1178px) and (max-width: 1360px) {
+        img {
+            width: 340px;
+        }
+    }
+
+    @media only screen and (min-width: 1100px) and (max-width: 1178px) {
+        img {
+            width: 340px;
+            margin-right: 100px;
+        }
+
+        h1 {
+            left: 40px;
+        }
+
+        p {
+            left: 40px;
+        }
+    }
+
+    @media only screen and (min-width: 995px) and (max-width: 1100px) {
+        img {
+            width: 300px;
+            height: 410px;
+            margin-right: 60px;
+        }
+
+        h1 {
+            width: 342px;
+            left: 40px;
+        }
+
+        p {
+            width: 580px;
+            left: 40px;
+        }
+    }
+
+    @media only screen and (min-width: 887px) and (max-width: 995px) {
+        img {
+            width: 290px;
+            height: 400px;
+            margin-right: 30px;
+        }
+
+        h1 {
+            font-size: 27px;
+            width: 342px;
+            left: 40px;
+        }
+
+        p {
+            font-size: 14px;
+            width: 510px;
+            left: 40px;
+        }
+    }
+
+    @media only screen and (min-width: 844px) and (max-width: 887px) {
+        img {
+            width: 270px;
+            height: 380px;
+            margin-right: 20px;
+        }
+
+        h1 {
+            font-size: 27px;
+            width: 342px;
+            left: 30px;
+        }
+
+        p {
+            font-size: 14px;
+            width: 510px;
+            left: 30px;
+        }
+    }
+
+    @media only screen and (min-width: 800px) and (max-width: 844px) {
+        img {
+            width: 270px;
+            height: 380px;
+            margin-right: 20px;
+        }
+
+        h1 {
+            font-size: 27px;
+            width: 342px;
+            left: 30px;
+        }
+
+        p {
+            font-size: 14px;
+            width: 470px;
+            left: 30px;
+        }
+    }
+
+    @media only screen and (min-width: 684px) and (max-width: 800px) {
+        img {
+            display: none;
+        }
+
+        h1 {
+            font-size: 27px;
+            width: 342px;
+            left: 30%;
+        }
+
+        p {
+            font-size: 14px;
+            width: 470px;
+            left: 30%;
+        }
+    }
+
+    @media only screen and (min-width: 600px) and (max-width: 684px) {
+        img {
+            display: none;
+        }
+
+        h1 {
+            font-size: 27px;
+            width: 342px;
+            left: 20%;
+        }
+
+        p {
+            font-size: 14px;
+            width: 470px;
+            left: 20%;
+        }
+    }
+
+    @media only screen and (min-width: 540px) and (max-width: 604px) {
+        img {
+            display: none;
+        }
+
+        h1 {
+            font-size: 27px;
+            width: 342px;
+            left: 10%;
+        }
+
+        p {
+            font-size: 14px;
+            width: 470px;
+            left: 10%;
+        }
+    }
+
+    @media only screen and (min-width: 440px) and (max-width: 540px) {
+        img {
+            display: none;
+        }
+
+        h1 {
+            font-size: 27px;
+            width: 342px;
+            left: 5%;
+        }
+
+        p {
+            font-size: 14px;
+            width: 400px;
+            left: 5%;
+        }
+    }
+
 `;
