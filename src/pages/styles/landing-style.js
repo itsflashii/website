@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 
-
 export const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
     
@@ -32,6 +31,18 @@ export const Container = styled.div`
         left: 140px;
     }
 
+    .bgBlock1 {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        z-index: -1;
+        background-color: red;
+        opacity: 0.6;
+    
+    }
+
     span {
         position: absolute;
         width: 500px;
@@ -40,7 +51,7 @@ export const Container = styled.div`
         font-size: 15px;
         font-weight: 400;
         top: 280px;
-        left: 140px;
+        left: 145px;
     }
 
     p {

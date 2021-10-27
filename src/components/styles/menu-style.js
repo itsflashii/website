@@ -39,6 +39,7 @@ export const Container = styled.div`
 
     @media only screen and (min-width: 730px) and (max-width: 820px) {
         ul {
+            display: none;
             text-align: end;
         }
 
@@ -47,18 +48,38 @@ export const Container = styled.div`
         }
     }
 
+
+    @media only screen and (min-width: 0px) and (max-width: 820px) {
+        ul {
+            display: none;
+            text-align: end;
+        }
+
+        li {
+            margin-left: 90px;
+        }
+
+        img {
+            margin-left: 40%;
+        }
+    } 
     @media only screen and (min-width: 683px) and (max-width: 730px) {
         ul {
+            display: none;
             text-align: end;
         }
 
         li {
             margin-left: 70px;
         }
+        img {
+            margin-left: 40%;
+        }
     }
 
     @media only screen and (min-width: 565px) and (max-width: 683px) {
         ul {
+            display: none;
             text-align: end;
         }
 
@@ -69,10 +90,14 @@ export const Container = styled.div`
         img {
             margin-left: 10px;
         }
+        img {
+            margin-left: 40%;
+        }
     }
 
     @media only screen and (min-width: 525px) and (max-width: 565px) {
         ul {
+            display: none;
             text-align: end;
         }
 
@@ -82,6 +107,9 @@ export const Container = styled.div`
 
         img {
             margin-left: 5px;
+        }
+        img {
+            margin-left: 40%;
         }
     }
 `;

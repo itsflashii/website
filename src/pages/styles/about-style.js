@@ -52,6 +52,13 @@ export const Container = styled.div`
 
   }
 
+
+  @media only screen and (min-width: 0px) and (max-width: 1400px) {
+
+    margin-top: -150px;
+
+}
+
   @media only screen and (min-width: 1160px) and (max-width: 1249px) {
 
     img {
