@@ -36,7 +36,7 @@ export const Container = styled.div`
     img {
         position: absolute;
         width: 390px;
-        top: 112px;
+        top: 35px;
 
         right: 0;
         margin-right: 130px;
