@@ -22,6 +22,7 @@ export const Card = styled.div`
         font-family: 'Roboto', sans-serif;
         font-weight: 400;
     }
+
     img {
         width: 35px;
         padding-bottom: 15px;
@@ -44,6 +45,24 @@ export const Card = styled.div`
         
         p {
             font-size: 11px;
+        }
+
+    }
+
+    /* INFO CARD - AGILITY */
+
+    @media only screen and (min-width: 1000px) and (max-width: 1167px) {
+        
+        .h2 {
+            margin-left: -80px;
+        }
+
+        .p {
+            margin-left: -80px;
+        }
+
+        img {
+            margin-left: -80px;
         }
 
     }
