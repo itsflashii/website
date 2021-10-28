@@ -5,22 +5,22 @@ export const HamburgStyle = styled.div`
 
   content: '';
   display: none;
-  width: 100%;
+  width: 100vh;
   height: 100%;
   background-color: black;
   position: fixed;
   opacity: 87%;
   z-index: 1;
   top: 0;
-
+  text-align: center;
+  
   ul {
     margin-top: 50px;
-    text-align: center;
+    margin-left: -40%;
   }
     
-  li{
-   
-    margin-bottom: 20px;
+  li{ 
+    margin-bottom: 10px;
   }
 
   a {
@@ -37,11 +37,10 @@ export const HamburgStyle = styled.div`
 
   svg {
     cursor: pointer;
-    position: absolute;
-    bottom: 0;
-    margin-bottom: 50px;
-    margin-left: 46%;
-    opacity: 50%;
+
+    margin-bottom: -60%;
+    margin-left: -37%;
+
   }
 `;
 
