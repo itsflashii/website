@@ -1,10 +1,13 @@
 import React from 'react';
 import { Container } from './styles/menu-style';
 import logo from '../assets/logo.svg'
-
+import HamburgMenu from '../components/hamburg';
 const Header = () => {
     return (
+        <>
+        
         <Container>
+        
             <img src={logo} alt="Varsel" />
             
             <ul>
@@ -22,6 +25,8 @@ const Header = () => {
                 </li>
             </ul>
         </Container>
+        <HamburgMenu />
+        </>
     )
 }
 
