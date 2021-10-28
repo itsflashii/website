@@ -12,8 +12,8 @@ const Landing = (props) => {
     
     return (
       <>
-     
       <Container>
+        
           <h1>{largeText}</h1>
           
           <span>{smallText}</span>
@@ -21,7 +21,7 @@ const Landing = (props) => {
 
           <MdArrowDownward className="arrowDown" size={19} color="#FFF" />
           <div style={{backgroundImage: `url(${bgImage})`}} className="bgBlock1" />
-          <video title="BackgroundVideo" muted="true" autoPlay src={bgVideo} />
+          <video title="BackgroundVideo" muted={true} autoPlay src={bgVideo} />
       </Container>
       </>
   );

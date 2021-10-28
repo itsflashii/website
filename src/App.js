@@ -9,10 +9,11 @@ import Phone from './assets/celular.png'
 import MobileLogin from './assets/undraw_mobile_login.png';
 import Testimonials from "./pages/testimonials";
 import Menu from './components/menu'
-
- function App() {
+import HamburgMenu from './components/hamburg';
+function App() {
       return (
         <>
+        <HamburgMenu />
           <Menu />
 
             <Landing 
