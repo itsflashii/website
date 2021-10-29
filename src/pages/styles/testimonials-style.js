@@ -2,7 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-    
+
+
+   position: absolute;
+   width: 98%;
+   height: 100vh;
 
   h1 {
     position: relative;
@@ -97,9 +101,10 @@ export const ContainerTestimonail = styled.div`
     flex-wrap: wrap;
     flex-direction: row;
     position: relative;
-    width: 90%;
-    top: 150px;
+    width: 100%;
+    top: 320px;
     left: 130px;
+
 
     @media only screen and (min-width: 770px) and (max-width: 846px) {
       margin-left: 90px;
@@ -110,4 +115,15 @@ export const ContainerTestimonail = styled.div`
       margin-left: 85px;
       left: -25px;
     }
+
+
+    @media only screen and (min-width: 0px) and (max-width: 640px) {
+      width: 100%;
+      left: -25px;
+
+
+    }
+
+
+
 `;

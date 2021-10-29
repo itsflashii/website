@@ -78,6 +78,8 @@ export const Container = styled.div`
         height: 760px;
         top: 0px;
 
+
+
         video {
             display: none;
         }
@@ -140,25 +142,26 @@ export const Container = styled.div`
 
     @media only screen and (min-width: 300px) and (max-width: 504px) {
         h1 {
-            font-size: 27px;
-            width: 412px;
-            top: 210px;
-            left: 40px;
+            font-size: 30px;
+            width: 310px;
+            top: 200px;
+            left: 30px;
         }
     
         p {
-            top: 361px;
-            left: 40px;
+            top: 371px;
+            left: 30px;
         }
         
         span {
-            width: 410px;
-            left: 40px;
+          
+            width: 300px;
+            left: 30px;
         }
 
         .arrowDown {/* ARRUMAR */
-            top: 366px;
-            left: 178px;
+            top: 375px;
+            left: 160px;
         }
     }
 

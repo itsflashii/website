@@ -15,7 +15,7 @@ export const Container = styled.div`
         font-size: 30px;
         color: white;
 
-        top: 280px;
+        top: 250px;
         left: 80px;
     }
 
@@ -27,7 +27,7 @@ export const Container = styled.div`
         font-size: 16px;
         color: #737380;
 
-        top: 380px;
+        top: 350px;
         left: 80px;
    
     }
@@ -78,7 +78,7 @@ export const Container = styled.div`
         }
 
         p {
-            width: 580px;
+            width: 90%;
             left: 40px;
         }
     }
@@ -100,7 +100,7 @@ export const Container = styled.div`
 
         p {
             font-size: 14px;
-            width: 510px;
+            width: 90%;
             left: 40px;
         }
     }
@@ -122,7 +122,7 @@ export const Container = styled.div`
 
         p {
             font-size: 14px;
-            width: 510px;
+            width: 90%;
             left: 30px;
         }
     }
@@ -144,7 +144,7 @@ export const Container = styled.div`
 
         p {
             font-size: 14px;
-            width: 470px;
+            width: 90%;
             left: 30px;
         }
     }
@@ -162,7 +162,7 @@ export const Container = styled.div`
 
         p {
             font-size: 14px;
-            width: 470px;
+            width: 90%;
             left: 30%;
         }
     }
@@ -180,7 +180,7 @@ export const Container = styled.div`
 
         p {
             font-size: 14px;
-            width: 470px;
+            width: 90%;
             left: 20%;
         }
     }
@@ -198,7 +198,7 @@ export const Container = styled.div`
 
         p {
             font-size: 14px;
-            width: 470px;
+            width: 90%;
             left: 10%;
         }
     }
@@ -216,9 +216,28 @@ export const Container = styled.div`
 
         p {
             font-size: 14px;
-            width: 400px;
+            width: 90%;
             left: 5%;
         }
     }
+
+    @media only screen and (min-width: 0px) and (max-width: 440px) {
+        img {
+            display: none;
+        }
+
+        h1 {
+            font-size: 27px;
+            width: 342px;
+            left: 5%;
+        }
+
+        p {
+            font-size: 14px;
+            width: 90%;
+            left: 5%;
+        }
+    }
+
 
 `;

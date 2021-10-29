@@ -75,7 +75,7 @@ export const Container = styled.div`
         }
 
         img {
-            margin-left: 37%;
+            margin-left: -15px;
         }
     } 
     @media only screen and (min-width: 683px) and (max-width: 730px) {

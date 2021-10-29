@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const HamburgStyle = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap');
-
+  
   content: '';
   display: none;
-  width: 100vh;
-  height: 100%;
+  width: 100%;
+  height: 112vh;
   background-color: black;
   position: fixed;
   opacity: 87%;
@@ -15,8 +15,12 @@ export const HamburgStyle = styled.div`
   text-align: center;
   
   ul {
+    position: absolute;
+    width: 100%;
     margin-top: 50px;
-    margin-left: -40%;
+    display: table;
+    margin: 0 auto;
+    top: 150px;
   }
     
   li{ 
@@ -36,11 +40,16 @@ export const HamburgStyle = styled.div`
   }
 
   svg {
+    position: absolute;
     cursor: pointer;
+  
 
-    margin-bottom: -60%;
-    margin-left: -37%;
-
+    
+    right: 0;
+    margin-right: 65px;
+    top: 55px;
+    transition: 12s;
+    z-index: 1;
   }
 `;
 
@@ -50,8 +59,8 @@ export const Svghamburg = styled.div`
     cursor: pointer !important;
     position: absolute;
     right: 0;
-    top: 65px;
-    margin-right: 11%;
+    top: 60px;
+    margin-right: 17%;
     z-index: 1;
   }
   

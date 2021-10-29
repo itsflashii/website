@@ -38,9 +38,26 @@ export const Container = styled.div`
 
     }
 
-    @media only screen and (min-width: 846px) and (max-width: 986px) {
+    @media only screen and (min-width: 0px) and (max-width: 986px) {
+        
+
         img {
-            left: 10px;
+            display: none;
+        }
+
+        h1 {
+            width: 250px;
+            
+            left: 40px;
+            top: -50px;
+        }
+
+        p {
+            width: 100%;
+            font-size: 17px;
+            width: 300px;
+            left: 40px;
+      
         }
     }
 `;
@@ -55,5 +72,12 @@ export const Cards = styled.div`
    // border: 1px solid red;
     top: -260px;
     left: 415px;
+
+
+    @media only screen and (min-width: 0px) and (max-width: 986px) {
+        left: -50px;
+        top: -150px;
+        width: 100px;
+    }
 
 `;

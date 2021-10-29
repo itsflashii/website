@@ -54,6 +54,19 @@ export const Container = styled.div`
 
 
   @media only screen and (min-width: 0px) and (max-width: 900px) {
+    h1 {
+      
+      font-size: 20px;
+      text-align: center;
+      left: 0;
+    }
+
+    p {
+      width: 100%;
+      font-size: 12px;
+      text-align: center;
+      left: 0;
+    }
 
     margin-top: -150px;
 
@@ -179,12 +192,12 @@ export const Container = styled.div`
     }
   }
 
-    @media only screen and (min-width: 300px) and (max-width: 475px) {
+    /* @media only screen and (min-width: 300px) and (max-width: 475px) {
 
       h1 {
-        font-size: 27px;
+        font-size: 20px;
         width: 375px;
-  
+        
         left: 22px;
       }
   
@@ -194,7 +207,7 @@ export const Container = styled.div`
   
         left: 22px;
       }
-  }
+  } */
 
 
 

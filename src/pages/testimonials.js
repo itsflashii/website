@@ -17,6 +17,7 @@ const Testimonials = () => {
                     job="CTO | Varsel"
                     rating="5"
                     avatar="http://afernandes.adv.br/wp-content/uploads/Team-Member-3.jpg"
+                    className="test1"
                     />
                     
                     <Testimonial 
@@ -35,6 +36,13 @@ const Testimonials = () => {
                     avatar="http://afernandes.adv.br/wp-content/uploads/Team-Member-3.jpg"
                     />
                     
+                    <Testimonial 
+                    message="“Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.”"
+                    person="Vítor Ribeiro"
+                    job="CTO | Varsel"
+                    rating="5"
+                    avatar="http://afernandes.adv.br/wp-content/uploads/Team-Member-3.jpg"
+                    />
                 </ContainerTestimonail>
         </>
     );
