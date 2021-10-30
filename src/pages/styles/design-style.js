@@ -6,7 +6,7 @@ export const Container = styled.div`
     position: relative;
     height: 625px;
     background-color: #060607;
-        
+
     h1 {
         position: absolute;
         width: 490px;
@@ -227,7 +227,7 @@ export const Container = styled.div`
         }
 
         h1 {
-            font-size: 27px;
+            font-size: 24.5px;
             width: 100%;
             left: 10px;
         }

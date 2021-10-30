@@ -100,13 +100,24 @@ export const Container = styled.div`
     
   }
 
+  @media only screen and (min-width: 200px) and (max-width: 800px) {
+    h1 {
+      top: 100px;
+    }
+
+    p {
+      top: 120px;
+    }
+
+  }
+
   @media only screen and (min-width: 700px) and (max-width: 800px) {
     h1 {
       left: 92px;
     }
 
     p {
-      left: 95px;
+      left: 93px;
     }
   }
 
@@ -124,7 +135,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 569px) and (max-width: 690px) {
 
     h1 {
-      font-size: 32px;
+      font-size: 27px;
       width: 400px;
 
       left: 72px;
@@ -132,7 +143,7 @@ export const Container = styled.div`
 
     p {
       width: 450px;
-      font-size: 15px;
+      font-size: 13px;
 
       left: 75px;
     }
@@ -142,7 +153,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 552px) and (max-width: 569px) {
 
     h1 {
-      font-size: 32px;
+      font-size: 27px;
       width: 400px;
 
       left: 62px;
@@ -150,7 +161,7 @@ export const Container = styled.div`
 
     p {
       width: 450px;
-      font-size: 15px;
+      font-size: 13px;
 
       left: 65px;
     }
@@ -159,7 +170,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 490px) and (max-width: 552px) {
 
     h1 {
-      font-size: 30px;
+      font-size: 27px;
       width: 417px;
 
       left: 34px;
@@ -167,7 +178,7 @@ export const Container = styled.div`
 
     p {
       width: 450px;
-      font-size: 14px;
+      font-size: 13px;
 
       left: 34px;
     }
@@ -199,6 +210,9 @@ export const Cards = styled.div`
     
     top: -290px;
     left: 45px;
+    @media only screen and (min-width: 200px) and (max-width: 800px) {
+      top: -395px!important;
+    }
 
     @media only screen and (min-width: 700px) and (max-width: 800px) {
       left: 24px!important;
@@ -209,12 +223,11 @@ export const Cards = styled.div`
     }
 
     @media only screen and (min-width: 690px) and (max-width: 760px) {
-      top: -295px!important;
+      top: -360px!important;
       left: 0px!important;
     }
 
     @media only screen and (min-width: 340px) and (max-width: 552px) {
-      top: -310px!important;
       left: -40px!important;
     }
     
@@ -227,7 +240,7 @@ export const Cards = styled.div`
     }
 
     @media only screen and (min-width: 200px) and (max-width: 430px) {
-      top: -200px!important;
+      top: -284px!important;
     }
 
     @media only screen and (min-width: 300px) and (max-width: 700px) {

@@ -13,7 +13,6 @@ export const TestiMonialCard = styled.div`
   border-radius: 5px;
   margin-left: 30px;
   margin-bottom: 20px;
-  border: 1px solid red;
 
   
   p {

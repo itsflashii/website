@@ -83,7 +83,7 @@ export const Container = styled.div`
 
     h1 {
       width: 100%;
-      font-size: 27px;
+      font-size: 24.5px;
       left: 11px;
     }
 
