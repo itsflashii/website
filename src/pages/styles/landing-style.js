@@ -99,12 +99,12 @@ export const Container = styled.div`
             left: 37%;
         }
 
-        .arrowDown {/* ARRUMAR */
-            left: 40%;
+        .arrowDown {
+            left: 50%;
         }
     }
 
-    @media only screen and (min-width: 628px) and (max-width: 900px) {
+    @media only screen and (min-width: 650px) and (max-width: 900px) {
         h1 {
             left: 27%;
         }
@@ -117,12 +117,12 @@ export const Container = styled.div`
             left: 27%;
         }
 
-        .arrowDown {/* ARRUMAR */
-            left: 40%;
+        .arrowDown {
+            left: 45%;
         }
     }
 
-    @media only screen and (min-width: 504px) and (max-width: 628px) {
+    @media only screen and (min-width: 504px) and (max-width: 650px) {
         h1 {
             left: 40px;
         }
@@ -135,12 +135,12 @@ export const Container = styled.div`
             left: 40px;
         }
 
-        .arrowDown {/* ARRUMAR */
-            left: 40%;
+        .arrowDown {
+            left: 34%;
         }
     }
 
-    @media only screen and (min-width: 300px) and (max-width: 504px) {
+    @media only screen and (min-width: 350px) and (max-width: 504px) {
         h1 {
             font-size: 30px;
             width: 310px;
@@ -159,8 +159,33 @@ export const Container = styled.div`
             left: 30px;
         }
 
-        .arrowDown {/* ARRUMAR */
+        .arrowDown {
             top: 375px;
+            left: 160px;
+        }
+    }
+
+    @media only screen and (min-width: 250px) and (max-width: 350px) {
+        h1 {
+            font-size: 30px;
+            width: 100%;
+            top: 200px;
+            left: 13px;
+        }
+    
+        p {
+            top: 385px;
+            left: 30px;
+        }
+        
+        span {
+            width: 90%;
+            top: 295px;
+            left: 13px;
+        }
+
+        .arrowDown {
+            top: 390px;
             left: 160px;
         }
     }

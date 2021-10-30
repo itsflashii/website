@@ -28,6 +28,11 @@ export const Card = styled.div`
         padding-bottom: 15px;
     }
 
+    @media only screen and (min-width: 986px) and (max-width: 1080px) {
+        width: 250px;
+        margin-left: 70px;
+    }
+
     @media only screen and (min-width: 475px) and (max-width: 490px) {
         h2 {
             font-size: 17px;
@@ -38,7 +43,7 @@ export const Card = styled.div`
         }
     }
 
-    @media only screen and (min-width: 300px) and (max-width: 475px) {
+    @media only screen and (min-width: 250px) and (max-width: 475px) {
         h2 {
             font-size: 15px;
         }
@@ -51,7 +56,23 @@ export const Card = styled.div`
 
     /* INFO CARD - AGILITY */
 
-    @media only screen and (min-width: 1000px) and (max-width: 1167px) {
+    @media only screen and (min-width: 1080px) and (max-width: 1167px) {
+        
+        .h2 {
+            margin-left: -80px;
+        }
+
+        .p {
+            margin-left: -80px;
+        }
+
+        img {
+            margin-left: -80px;
+        }
+
+    }
+
+    @media only screen and (min-width: 986px) and (max-width: 1080px) {
         
         .h2 {
             margin-left: -80px;

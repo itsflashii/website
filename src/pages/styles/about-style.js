@@ -55,17 +55,15 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 0px) and (max-width: 900px) {
     h1 {
-      
-      font-size: 20px;
-      text-align: center;
-      left: 0;
+      width: 90%;
+      font-size: 27px;
+      left: 15px;
     }
 
     p {
-      width: 100%;
-      font-size: 12px;
-      text-align: center;
-      left: 0;
+      width: 90%;
+      font-size: 13px;
+      left: 15px;
     }
 
     margin-top: -150px;
@@ -123,7 +121,7 @@ export const Container = styled.div`
     }
   }
 
-  @media only screen and (min-width: 569px) and (max-width: 690px) { /*TERMINAR*/
+  @media only screen and (min-width: 569px) and (max-width: 690px) {
 
     h1 {
       font-size: 32px;
@@ -191,26 +189,6 @@ export const Container = styled.div`
       left: 30px;
     }
   }
-
-    /* @media only screen and (min-width: 300px) and (max-width: 475px) {
-
-      h1 {
-        font-size: 20px;
-        width: 375px;
-        
-        left: 22px;
-      }
-  
-      p {
-        width: 420px;
-        font-size: 13px;
-  
-        left: 22px;
-      }
-  } */
-
-
-
 `;
 
 export const Cards = styled.div`
@@ -242,12 +220,14 @@ export const Cards = styled.div`
     
     @media only screen and (min-width: 340px) and (max-width: 475px) {
       top: -340px!important;
-      left: -50px!important;
     }
 
-    @media only screen and (min-width: 300px) and (max-width: 340px) {
-      top: -320px!important;
-      left: -40px!important;
+    @media only screen and (min-width: 200px) and (max-width: 395px) {
+      left: -75px!important;
+    }
+
+    @media only screen and (min-width: 200px) and (max-width: 430px) {
+      top: -200px!important;
     }
 
     @media only screen and (min-width: 300px) and (max-width: 700px) {

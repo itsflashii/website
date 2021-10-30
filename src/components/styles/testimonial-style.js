@@ -7,12 +7,13 @@ export const TestiMonialCard = styled.div`
 
   cursor: pointer;
   position: relative;
-  width: 400px;
+  width: 363px;
   height: 200px;
   background-color: #060607;
   border-radius: 5px;
   margin-left: 30px;
   margin-bottom: 20px;
+  border: 1px solid red;
 
   
   p {
@@ -64,7 +65,7 @@ export const TestiMonialCard = styled.div`
   }
 
   @media only screen and (min-width: 700px) and (max-width: 846px) {
-    width: 330px;
+    width: 60%;
 
     margin-left: 15px;
   }
@@ -73,29 +74,24 @@ export const TestiMonialCard = styled.div`
     margin-left: -85px;
   }
 
-  @media only screen and (min-width: 300px) and (max-width: 458px) {
-    margin-left: -115px;
+  @media only screen and (min-width: 410px) and (max-width: 458px) {
+
+    width: 90%;
+    margin-left: -80px;
 
     p {
       font-size: 14px;
-    }
-
-    h5 {
-      top: 60px;
-      font-size: 11px;
-    }
-
-    h3 {
-      top: 60px;
-      font-size: 13px;
     }
 
   }
 
-  @media only screen and (min-width: 300px) and (max-width: 410px) {
+  @media only screen and (min-width: 250px) and (max-width: 410px) {
+
+    width: 90%;
+    margin-left: -115px;
 
     p {
-      font-size: 14px;
+      font-size: 12px;
     }
 
     h5 {
@@ -106,6 +102,13 @@ export const TestiMonialCard = styled.div`
     h3 {
       top: 60px;
       font-size: 13px;
+    }
+
+    img {
+      width: 40px;
+      height: 40px;
+      top: 135px;
+      left: 30px;
     }
     
   }

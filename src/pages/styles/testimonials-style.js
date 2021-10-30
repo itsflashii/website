@@ -54,7 +54,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 458px) and (max-width: 560px) {
 
     h1 {
-      font-size: 25px;
+      font-size: 27px;
       left: 20px;
     }
 
@@ -79,17 +79,17 @@ export const Container = styled.div`
 
   }
 
-  @media only screen and (min-width: 300px) and (max-width: 410px) {
+  @media only screen and (min-width: 230px) and (max-width: 410px) {
 
     h1 {
-      width: 339px;
-      font-size: 20px;
-      left: 17px;
+      width: 100%;
+      font-size: 27px;
+      left: 11px;
     }
 
     p {
       font-size: 14px;
-      left: 17px;
+      left: 11px;
     }
 
   }
@@ -103,7 +103,7 @@ export const ContainerTestimonail = styled.div`
     position: relative;
     width: 100%;
     top: 320px;
-    left: 130px;
+    left: 120px;
 
 
     @media only screen and (min-width: 770px) and (max-width: 846px) {
@@ -117,13 +117,8 @@ export const ContainerTestimonail = styled.div`
     }
 
 
-    @media only screen and (min-width: 0px) and (max-width: 640px) {
+    @media only screen and (min-width: 410px) and (max-width: 640px) {
       width: 100%;
-      left: -25px;
-
-
+      left: 100px;
     }
-
-
-
 `;

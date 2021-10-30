@@ -35,31 +35,95 @@ export const Container = styled.div`
         width: 300px;
         top: 10px;
         left: 100px;
-
     }
 
-    @media only screen and (min-width: 0px) and (max-width: 986px) {
-        
+    @media only screen and (min-width: 1080px) and (max-width: 1167px) {
+        h1 {
+            left: 415px;
+        }
 
+        p {
+            left: 415px;
+        }
+    }
+
+    @media only screen and (min-width: 986px) and (max-width: 1080px) {
+
+        h1 {
+            left: 400px;
+        }
+
+        p {
+            width: 584px;
+            left: 400px;
+        }
+
+        img {
+            width: 250px;
+        }
+    }
+
+
+    @media only screen and (min-width: 0px) and (max-width: 986px) {
         img {
             display: none;
         }
+    }
 
+    @media only screen and (min-width: 660px) and (max-width: 986px) {
         h1 {
-            width: 250px;
-            
-            left: 40px;
-            top: -50px;
+            left: 27%;
+        }
+
+        p {
+            width: 450px;
+
+            left: 27%;
+        }
+    }
+
+    @media only screen and (min-width: 496px) and (max-width: 660px) {
+        h1 {
+            font-size: 30px;
+            left: 15%;
+        }
+
+        p {
+            width: 421px;
+            font-size: 14px;
+            left: 15%;
+        }
+    }
+
+    @media only screen and (min-width: 325px) and (max-width: 496px) {
+        h1 {
+            width: 100%;
+            font-size: 27px;
+            left: 15px;
         }
 
         p {
             width: 100%;
-            font-size: 17px;
-            width: 300px;
-            left: 40px;
-      
+            font-size: 13px;
+            left: 15px;
         }
     }
+
+    @media only screen and (min-width: 285px) and (max-width: 325px) {
+        h1 {
+            width: 100%;
+            font-size: 25px;
+            left: 10px;
+        }
+
+        p {
+            width: 100%;
+            font-size: 13px;
+            top: 85px;
+            left: 10px;
+        }
+    }
+
 `;
 
 export const Cards = styled.div`
@@ -74,9 +138,27 @@ export const Cards = styled.div`
     left: 415px;
 
 
-    @media only screen and (min-width: 0px) and (max-width: 986px) {
-        left: -50px;
-        top: -150px;
+    @media only screen and (min-width: 660px) and (max-width: 986px) {
+        left: 18%;
+        top: -223px;
+        width: 100px;
+    }
+
+    @media only screen and (min-width: 496px) and (max-width: 660px) {
+        left: 8%;
+        top: -223px;
+        width: 100px;
+    }
+
+    @media only screen and (min-width: 395px) and (max-width: 496px) {
+        left: -30px;
+        top: -223px;
+        width: 100px;
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 395px) {
+        left: -70px;
+        top: -223px;
         width: 100px;
     }
 

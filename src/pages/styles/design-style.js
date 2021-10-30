@@ -63,14 +63,14 @@ export const Container = styled.div`
         }
     }
 
+    @media only screen and (min-width: 0px) and (max-width: 1100px) {
+        img {
+            display: none;
+        }
+    }
+
     @media only screen and (min-width: 995px) and (max-width: 1100px) {
         height: 522px;
-        
-        img {
-            width: 300px;
-            height: 410px;
-            margin-right: 60px;
-        }
 
         h1 {
             width: 342px;
@@ -162,7 +162,7 @@ export const Container = styled.div`
 
         p {
             font-size: 14px;
-            width: 90%;
+            width: 60%;
             left: 30%;
         }
     }
@@ -180,7 +180,7 @@ export const Container = styled.div`
 
         p {
             font-size: 14px;
-            width: 90%;
+            width: 60%;
             left: 20%;
         }
     }
@@ -198,7 +198,7 @@ export const Container = styled.div`
 
         p {
             font-size: 14px;
-            width: 90%;
+            width: 80%;
             left: 10%;
         }
     }
@@ -221,7 +221,26 @@ export const Container = styled.div`
         }
     }
 
-    @media only screen and (min-width: 0px) and (max-width: 440px) {
+    @media only screen and (min-width: 200px) and (max-width: 440px) {
+        img {
+            display: none;
+        }
+
+        h1 {
+            font-size: 27px;
+            width: 100%;
+            left: 10px;
+        }
+
+        p {
+            font-size: 13px;
+            width: 90%;
+            top: 366px;
+            left: 10px;
+        }
+    }
+
+    @media only screen and (min-width: 0px) and (max-width: 200px) {
         img {
             display: none;
         }
