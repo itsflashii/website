@@ -82,7 +82,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 230px) and (max-width: 410px) {
 
     h1 {
-      width: 100%;
+      width: 90%;
       font-size: 24.5px;
       left: 11px;
     }
