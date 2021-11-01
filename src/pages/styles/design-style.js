@@ -6,7 +6,8 @@ export const Container = styled.div`
     position: relative;
     height: 625px;
     background-color: #060607;
-
+    border-top: 1px solid rgba(115, 115, 128, 0.29);
+    border-bottom: 1px solid rgba(115, 115, 128, 0.29);
     h1 {
         position: absolute;
         width: 490px;
@@ -37,6 +38,7 @@ export const Container = styled.div`
         position: absolute;
         width: 390px;
         
+        top: 35px;
 
         right: 0;
         margin-right: 130px;
@@ -45,6 +47,7 @@ export const Container = styled.div`
     @media only screen and (min-width: 1178px) and (max-width: 1360px) {
         img {
             width: 340px;
+            top: 111px;
         }
     }
 
@@ -52,6 +55,7 @@ export const Container = styled.div`
         img {
             width: 340px;
             margin-right: 100px;
+            top: 111px;
         }
 
         h1 {

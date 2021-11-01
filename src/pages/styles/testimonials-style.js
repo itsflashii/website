@@ -101,7 +101,7 @@ export const ContainerTestimonail = styled.div`
     flex-wrap: wrap;
     flex-direction: row;
     position: relative;
-    width: 100%;
+    width: 80%;
     top: 320px;
     left: 120px;
 

@@ -6,7 +6,8 @@ export const Container = styled.div`
   position: relative;
   height: 700px;
   background-color: #060607;
-
+  border-top: 1px solid rgba(115, 115, 128, 0.29);
+  border-bottom: 1px solid rgba(115, 115, 128, 0.29);
 
   h1 {
     position: relative;

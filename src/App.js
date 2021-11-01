@@ -8,7 +8,9 @@ import AgilityLarge from './assets/propImage.png'
 import Phone from './assets/celular.png'
 import MobileLogin from './assets/undraw_mobile_login.png';
 import Testimonials from "./pages/testimonials";
-import Menu from './components/menu'
+import Menu from './components/menu';
+import Footer from './components/footer';
+
 function App() {
       return (
         <>
@@ -38,6 +40,7 @@ function App() {
             />
             <Testimonials />
 
+          <Footer />
           
         </>
       );

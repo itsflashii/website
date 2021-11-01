@@ -5,7 +5,6 @@ import HamburgMenu from '../components/hamburg';
 const Header = () => {
     return (
         <>
-        
         <Container>
         
             <img src={logo} alt="Varsel" />
@@ -15,13 +14,13 @@ const Header = () => {
                     <a href="https://">Home</a>
                 </li>
                 <li>
-                    <a href="https://">Soluçoes</a>
+                    <a href="https://">Portifolio</a>
                 </li>
                 <li>
                     <a href="https://">Varsel Source</a>
                 </li>
                 <li>
-                    <a href="https://">Sobre</a>
+                    <a href="https://">Contato</a>
                 </li>
             </ul>
         </Container>
