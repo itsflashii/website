@@ -30,7 +30,7 @@ function App() {
             />
             <Agility 
               largeText='Agilidade & Qualidade.'
-              smallText='A produtividade e a base para um bom projeto, sendo influenciada principalmente pelo um bom trabalho. Aqui não pode ser diferente não e mesmo. Trazemos a tranquilidade de um projeto refinado é ágil, sendo moldurado pelas ideias de nosso clientes contratantes.'
+              smallText='A produtividade e a base para um bom projeto, sendo influenciada principalmente pelo um bom trabalho. Aqui não pode ser diferente não e mesmo. Trazemos a tranquilidade de um projeto refinado & ágil, sendo moldurado pelas ideias de nosso clientes contratantes.'
               propImage={AgilityLarge}
             />
             <Design 
