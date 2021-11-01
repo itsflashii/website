@@ -35,7 +35,7 @@ function App() {
             />
             <Design 
               largeText='Design de acordo com seu gosto & marca.'
-              smallText='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
+              smallText='“você nunca terá uma segunda chance de causar uma primeira boa impressão”. Proporcionar experiências incríveis, são sentimentos únicos na vida de um bom desenvolvedor a atenção a cada detalhe é a mágica por trás disso. Venha se dedicar ao seu sonho, junto com a Varsel.'
               propImage={Phone}
             />
             <Testimonials
