@@ -30,7 +30,7 @@ function App() {
             />
             <Agility 
               largeText='Agilidade & Qualidade.'
-              smallText='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.'
+              smallText='A produtividade e a base para um bom projeto, sendo influenciada principalmente pelo um bom trabalho. Aqui não pode ser diferente não e mesmo. Trazemos a tranquilidade de um projeto refinado é ágil, sendo moldurado pelas ideias de nosso clientes contratantes.'
               propImage={AgilityLarge}
             />
             <Design 
@@ -38,7 +38,10 @@ function App() {
               smallText='Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu.'
               propImage={Phone}
             />
-            <Testimonials />
+            <Testimonials
+              largeText="Ajudando milhares de empresas a antingirem o potencial máximo."
+              smallText="Veja o que algumas delas disseram:"
+            />
 
           <Footer />
           

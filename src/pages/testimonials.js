@@ -3,12 +3,14 @@ import { Container, ContainerTestimonail } from './styles/testimonials-style';
 import Testimonial from '../components/testimonial';
 
 
-const Testimonials = () => {
+const Testimonials = (props) => {
+    const { largeText, smallText } = props
+
     return (
         <>
             <Container>
-                <h1>Ajudando milhares de empresas a antingirem o potencial máximo.</h1>
-                <p>Veja o que algumas delas disseram:</p>
+                <h1>{largeText}</h1>
+                <p>{smallText}</p>
             </Container>
             <ContainerTestimonail>
                     <Testimonial 
