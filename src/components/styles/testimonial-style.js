@@ -86,7 +86,7 @@ export const TestiMonialCard = styled.div`
 
   @media only screen and (min-width: 250px) and (max-width: 410px) {
 
-    width: 90%;
+    width: 99%;
     margin-left: -115px;
 
     p {

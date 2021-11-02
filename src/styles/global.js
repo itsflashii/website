@@ -54,8 +54,4 @@ export default createGlobalStyle `
         background: #262626;
 
     }
-
-    @media only screen and (min-width: 0px) and (max-width: 1000px) {
-        overflow-x: hidden;
-    }
 `;
