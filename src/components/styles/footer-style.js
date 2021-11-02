@@ -467,7 +467,7 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 280px) and (max-width: 335px) {
-    height: 853px;
+    height: 710px;
 
     img {
       width: 300px;
