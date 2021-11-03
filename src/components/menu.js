@@ -14,13 +14,13 @@ const Header = () => {
                     <a href="https://">Home</a>
                 </li>
                 <li>
+                    <a href="https://">Sobre</a>
+                </li>
+                <li>
+                    <a href="https://">Nosso Time</a>
+                </li>
+                <li>
                     <a href="https://">Portifolio</a>
-                </li>
-                <li>
-                    <a href="https://">Varsel Source</a>
-                </li>
-                <li>
-                    <a href="https://">Contato</a>
                 </li>
             </ul>
         </Container>
