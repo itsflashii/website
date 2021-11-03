@@ -1,5 +1,4 @@
 import * as React from "react";
-import tawkTo from "tawkto-react";
 
 
 import Landing from './pages/landing';
@@ -16,16 +15,10 @@ import Footer from './components/footer';
 import AgilityLarge from './assets/propImage.png'
 import Phone from './assets/celular.png'
 import MobileLogin from './assets/undraw_mobile_login.png';
-const tawkToKey  = '18e89a5538c36e13dd481edc280baed0cf46c02b';
-const tawkToPropertyId = '6182ecb76bb0760a4941034f'
 
 
 
 function App() {
-
-    React.useEffect(() => {
-      tawkTo(tawkToPropertyId, tawkToKey)
-    }, [])
       return (
         <>
       <Menu />

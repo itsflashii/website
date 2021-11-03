@@ -41,11 +41,12 @@ export const Container = styled.div`
   }
 
   .Fone {
-    position: absolute;
+    position: relative;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: 400;
-    top: 160px;
+    top: 170px;
+    margin-bottom: 5px;
     left: 215px;
     color: #53535a;
   }
@@ -80,7 +81,7 @@ export const Container = styled.div`
   ul {
     position: absolute;
     margin-right: 508px;
-    margin-top: 90px;
+    margin-top: 40px;
     right: 0;
   }
     
@@ -104,7 +105,8 @@ export const Container = styled.div`
   .ulVarsel {
     position: absolute;
     margin-right: 297px;
-    margin-top: 90px;
+    margin-top: 40px;
+
     right: 0;
   }
     
@@ -128,7 +130,8 @@ export const Container = styled.div`
   .ulSocial {
     position: absolute;
     margin-right: 120px;
-    margin-top: 90px;
+    margin-top: 40px;
+
     right: 0;
   }
     

@@ -8,9 +8,10 @@ const Footer = () => {
     <Container>
     
     <img src={svgLogo} alt="Varsel Logo" />
-    <h5 className='Email'>Email: contato@varsel.com.br</h5>
-    <h5 className='Fone' >Fone: +11 9934-55968</h5>
-
+    <h5 className='Email'>Email: contato.varsel@gmail.com</h5>
+    <h5 className='Fone' >Campina Grande/PA: <b>(83) 8689-3506</b></h5>
+    <h5 className='Fone' >São Paulo/SP: <b>(11) 97696-3786</b></h5>
+    <h5 className='Fone' >Santa Rosa/RS: <b>(55) 9959-6287</b></h5>
     <h2>Dúvidas:</h2>
       <ul>
         <li>
