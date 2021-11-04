@@ -22,7 +22,13 @@ import MobileLogin from './assets/undraw_mobile_login.png';
 function App() {
       return (
         <>
-      <Menu />
+      <Menu 
+        txt1='Home'
+        txt2='Sobre'
+        txt3='Portifolio'
+        txt4='Varsel Source'
+        
+      />
             <Landing 
               bgVideo={backgroundVideo}
               largeText='Versatilidade na web, mobile & desktop.'
@@ -51,7 +57,12 @@ function App() {
 
             <Portifolio />
             
-            <Lab />
+            <Lab 
+              largeText='Mais de'
+              CountBuss='260'
+              largeText2='empresas contrataram a Varsel.'
+              SmallText='Faça parte dessa lista, entre em contato conosco e faça um orçamento.'
+            />
 
             <Footer 
               Duv='Dúvidas'

@@ -1,11 +1,13 @@
 import React from 'react';
 import { Container } from './styles/lab-style';
 
-const Lab = () => {
+const Lab = (props) => {
+  const { largeText, largeText2, CountBuss, SmallText } = props
+ 
   return (
     <Container> 
-        <h1>Mais de <span>220</span> empresas contrataram a Varsel.</h1>
-        <p>Faça parte dessa lista, entre em contato conosco e faça um orçamento.</p>
+        <h1>{largeText} <span> {CountBuss} </span> {largeText2}</h1>
+        <p>{SmallText}</p>
     </Container>
   )
 }

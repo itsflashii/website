@@ -2,7 +2,9 @@ import React from 'react';
 import { Container } from './styles/menu-style';
 import logo from '../assets/logo.svg'
 import HamburgMenu from '../components/hamburg';
-const Header = () => {
+const Header = (props) => {
+    const { txt1, txt2, txt3, txt4 } = props
+
     return (
         <>
         <Container>
@@ -11,16 +13,16 @@ const Header = () => {
             
             <ul>
                 <li>
-                    <a href="https://">Home</a>
+                    <a href="https://">{txt1}</a>
                 </li>
                 <li>
-                    <a href="https://">Sobre</a>
+                    <a href="https://">{txt2}</a>
                 </li>
                 <li>
-                    <a href="https://">Nosso Time</a>
+                    <a href="https://">{txt3}</a>
                 </li>
                 <li>
-                    <a href="https://">Portifolio</a>
+                    <a href="https://">{txt4}</a>
                 </li>
             </ul>
         </Container>
