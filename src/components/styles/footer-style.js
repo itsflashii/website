@@ -225,7 +225,7 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 700px) and (max-width: 925px) {
-    height: 405px;
+    height: 460px;
 
     img {
       width: 300px;
@@ -234,7 +234,7 @@ export const Container = styled.div`
     }
 
     h2 {
-      top: 211px;
+      top: 270px;
       margin-right: 560px;
     }
 
@@ -244,7 +244,7 @@ export const Container = styled.div`
     }
 
     .Varsel {
-      top: 211px;
+      top: 270px;
       margin-right: 360px;
     }
 
@@ -254,7 +254,7 @@ export const Container = styled.div`
     }
 
     .Social {
-      top: 211px;
+      top: 270px;
       margin-right: 165px;
     }
 
@@ -274,7 +274,7 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 525px) and (max-width: 700px) {
-    height: 405px;
+    height: 460px;
 
     img {
       width: 300px;
@@ -283,7 +283,7 @@ export const Container = styled.div`
     }
 
     h2 {
-      top: 211px;
+      top: 270px;
       margin-right: 442px;
     }
 
@@ -293,7 +293,7 @@ export const Container = styled.div`
     }
 
     .Varsel {
-      top: 211px;
+      top: 270px;
       margin-right: 262px;
     }
 
@@ -303,7 +303,7 @@ export const Container = styled.div`
     }
 
     .Social {
-      top: 211px;
+      top: 270px;
       margin-right: 89px;
     }
 
@@ -323,7 +323,7 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 495px) and (max-width: 525px) {
-    height: 405px;
+    height: 460px;
 
     img {
       width: 300px;
@@ -332,7 +332,7 @@ export const Container = styled.div`
     }
 
     h2 {
-      top: 211px;
+      top: 270px;
       margin-right: 412px;
     }
 
@@ -342,7 +342,7 @@ export const Container = styled.div`
     }
 
     .Varsel {
-      top: 211px;
+      top: 270px;
       margin-right: 242px;
     }
 
@@ -352,7 +352,7 @@ export const Container = styled.div`
     }
 
     .Social {
-      top: 211px;
+      top: 270px;
       margin-right: 79px;
     }
 
@@ -381,7 +381,7 @@ export const Container = styled.div`
     }
 
     h2 {
-      top: 211px;
+      top: 270px;
       margin-right: 217px;
     }
 
@@ -391,7 +391,7 @@ export const Container = styled.div`
     }
 
     .Varsel {
-      top: 370px;
+      top: 430px;
       margin-right: 232px;
     }
 
@@ -401,7 +401,7 @@ export const Container = styled.div`
     }
 
     .Social {
-      top: 528px;
+      top: 590px;
       margin-right: 232px;
     }
 
@@ -430,7 +430,7 @@ export const Container = styled.div`
     }
 
     h2 {
-      top: 211px;
+      top: 270px;
       margin-right: 188px;
     }
 
@@ -440,7 +440,7 @@ export const Container = styled.div`
     }
 
     .Varsel {
-      top: 370px;
+      top: 430px;
       margin-right: 203px;
     }
 
@@ -450,7 +450,7 @@ export const Container = styled.div`
     }
 
     .Social {
-      top: 528px;
+      top: 590px;
       margin-right: 203px;
     }
 
@@ -479,7 +479,7 @@ export const Container = styled.div`
     }
 
     h2 {
-      top: 211px;
+      top: 270px;
       margin-right: 188px;
     }
 
@@ -489,7 +489,7 @@ export const Container = styled.div`
     }
 
     .Varsel {
-      top: 370px;
+      top: 430px;
       margin-right: 203px;
     }
 
@@ -499,7 +499,7 @@ export const Container = styled.div`
     }
 
     .Social {
-      top: 528px;
+      top: 590px;
       margin-right: 203px;
     }
 
