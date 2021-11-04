@@ -7,7 +7,8 @@ import About from './pages/about';
 import Agility from './pages/agility';
 import Design from './pages/design';
 import Portifolio from './pages/portifolio'
-import Testimonials from "./pages/testimonials";
+import Testimonials from './pages/testimonials';
+import Lab from './pages/lab'
 
 import Menu from './components/menu';
 import Footer from './components/footer';
@@ -49,8 +50,21 @@ function App() {
             />
 
             <Portifolio />
+            
+            <Lab />
 
-          <Footer />
+            <Footer 
+              Duv='Dúvidas'
+              Pag='Pagamento'
+              Acom='Acompanhamento'
+              Sup='Suporte de Produtos'
+              Aten='Atendimento'
+              Var='A Varsel'
+              Crea='Criadores'
+              Porti='Portifolio'
+              Trab='Trabalhe Conosco'
+              Dir='© Varsel, 2021. Todos os direitos reservados.'
+            />
           
         </>
       );

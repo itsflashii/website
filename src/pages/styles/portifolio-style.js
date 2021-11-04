@@ -108,12 +108,13 @@ export const Products = styled.div`
     z-index: 1;
     margin-left: 20px;
     margin-bottom: 30px;
-    
-
+    transition: 1s;
+    border: 1px solid rgba(255,255,255,0.0);
   }
 
   img:hover {
-    border: 1px solid red;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 3%;
   }
 
   @media only screen and (min-width: 300px) and (max-width: 1095px) {

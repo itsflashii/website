@@ -4,7 +4,7 @@ export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
   position: relative;
-  height: 700px;
+  height: 100vh;
   background-color: #060607;
   border-top: 1px solid rgba(115, 115, 128, 0.29);
   border-bottom: 1px solid rgba(115, 115, 128, 0.29);
