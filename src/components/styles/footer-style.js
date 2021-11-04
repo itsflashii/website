@@ -5,7 +5,7 @@ export const Container = styled.div`
 
   position: relative;
   width: 100%;
-  height: 300px;
+  height: 230px;
   background-color: #060607;
   border-top: 1px solid rgba(115, 115, 128, 0.29);
   top: 400px;
@@ -24,31 +24,31 @@ export const Container = styled.div`
   }
 
   img {
-    position: absolute;
-    width: 350px;
-    top: 50px;
+    display: table;
+    margin: 0 auto;
+    width: 50px;
+    margin-top: 40px;
     left: 174px;
   }
 
   .Email {
-    position: absolute;
+    display: table;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: 400;
-    top: 140px;
-    left: 215px;
+    margin-top: 20px;
     color: #53535a;
   }
 
   .Fone {
-    position: relative;
+    display: table;
+    margin: 0 auto;
     font-family: 'Roboto', sans-serif;
     font-size: 13px;
     font-weight: 400;
-    top: 170px;
-    margin-bottom: 5px;
-    left: 215px;
     color: #53535a;
+    margin-top: 5px;
   }
 
   .Varsel {

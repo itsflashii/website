@@ -4,18 +4,18 @@ import svgLogo from '../assets/varselInfos.png';
 
 const Footer = (props) => {
 
-  const {
-    Duv,
-    Pag,
-    Acom,
-    Sup,
-    Aten,
-    Var,
-    Crea,
-    Porti,
-    Trab,
-    Dir
-  } = props
+  // const {
+  //   Duv,
+  //   Pag,
+  //   Acom,
+  //   Sup,
+  //   Aten,
+  //   Var,
+  //   Crea,
+  //   Porti,
+  //   Trab,
+  //   Dir
+  // } = props
 
   return (
     <>
@@ -23,10 +23,8 @@ const Footer = (props) => {
     
     <img src={svgLogo} alt="Varsel Logo" />
     <h5 className='Email'>Email: contato.varsel@gmail.com</h5>
-    <h5 className='Fone' >Campina Grande/PB: <b>(83) 8689-3506</b></h5>
-    <h5 className='Fone' >São Paulo/SP: <b>(11) 97696-3786</b></h5>
-    <h5 className='Fone' >Santa Rosa/RS: <b>(55) 9959-6287</b></h5>
-    <h2>{Duv}</h2>
+    <h5 className='Fone' >Campina Grande: (83) 8689-3506 | São Paulo: (11) 97696-3786 | Rio Grande: (55) 9959-6287</h5>
+    {/* <h2>{Duv}</h2>
       <ul>
         <li>
           <a href="https://">{Pag}</a>
@@ -72,10 +70,10 @@ const Footer = (props) => {
           <li>
             <a href="https://">Instagram</a>
           </li>
-        </ul> 
+        </ul>  */}
 
     <Navi>
-      <p>{Dir}</p>
+      <p>{props.Dir}</p>
     </Navi>
     </Container>
      </>
