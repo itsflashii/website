@@ -35,4 +35,48 @@ export const Container = styled.div`
 
     }
 
+  @media only screen and (min-width: 300px) and (max-width: 1095px) {
+    h1 {
+      font-size: 20px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (min-width: 600px) and (max-width: 800px) {
+    h1{
+      width: 300px;
+      font-size: 20px;
+    }
+
+    p {
+      width: 300px;
+    }
+  }
+
+
+  @media only screen and (min-width: 400px) and (max-width: 600px) {
+    h1 {
+      font-size: 15px;
+      width: 300px;
+    }
+
+    p {
+      width: 300px;
+    }
+  }
+
+
+  @media only screen and (min-width: 280px) and (max-width: 400px) {
+    h1 {
+      width: 300px;
+    }
+
+    p {
+      width: 300px;
+    }
+  }
+
 `;
