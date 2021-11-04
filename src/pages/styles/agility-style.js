@@ -14,7 +14,7 @@ export const Container = styled.div`
         color: white;
         
         top: 10px;
-        left: 500px;
+        left: 550px;
     }
 
 
@@ -27,14 +27,14 @@ export const Container = styled.div`
         color: #737380;
 
         top: 80px;
-        left: 500px;
+        left: 550px;
     }
 
     img {
         position: absolute;
         width: 300px;
         top: 10px;
-        left: 100px;
+        left: 160px;
     }
 
     @media only screen and (min-width: 1080px) and (max-width: 1167px) {
@@ -135,7 +135,7 @@ export const Cards = styled.div`
     width: 800px;
    // border: 1px solid red;
     top: -260px;
-    left: 415px;
+    left: 465px;
 
 
     @media only screen and (min-width: 660px) and (max-width: 986px) {

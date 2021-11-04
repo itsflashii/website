@@ -8,6 +8,7 @@ export const Container = styled.div`
     background-color: #060607;
     border-top: 1px solid rgba(115, 115, 128, 0.29);
     border-bottom: 1px solid rgba(115, 115, 128, 0.29);
+    
     h1 {
         position: absolute;
         width: 490px;
@@ -17,7 +18,7 @@ export const Container = styled.div`
         color: white;
 
         top: 250px;
-        left: 80px;
+        left: 150px;
     }
 
     p {
@@ -29,7 +30,7 @@ export const Container = styled.div`
         color: #737380;
 
         top: 350px;
-        left: 80px;
+        left: 150px;
    
     }
 

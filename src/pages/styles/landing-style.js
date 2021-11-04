@@ -38,7 +38,7 @@ export const Container = styled.div`
         background-size: cover;
         background-position: center;
         z-index: -1;
-        background-color: red;
+        background-color: black;
         opacity: 0.6;
     
     }
