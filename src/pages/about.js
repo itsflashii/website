@@ -4,11 +4,9 @@ import InfoCard from '../components/infoCard';
 
 const About = (props) => {
     const { smallText, largeText, propImage } = props
-    
-
     return (
         <>
-        <Container ref='aboutScroll'>
+        <Container id='about'>
             <h1>{largeText}</h1>
             <p>{smallText}</p>
             <img src={propImage} alt="Mobile App" />

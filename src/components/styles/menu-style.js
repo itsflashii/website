@@ -12,6 +12,7 @@ export const Container = styled.div`
     color: #FFFFFF;
     align-items: center;
 
+    
     img {
         margin-top: 25px;
         margin-left: 260px;
@@ -23,6 +24,7 @@ export const Container = styled.div`
     }
     
     li{
+        cursor: pointer !important;
         display: inline-block;
         margin-left: 110px;
     }

@@ -35,6 +35,28 @@ export const Container = styled.div`
 
     }
 
+    button {
+      display: table;
+      margin: 0 auto;
+      width: 130px;
+      height: 40px;
+      font-family: 'Poppins';
+      font-weight: 500;
+      font-size: 14px;
+      border-radius: 3%;
+      background-color: #6E64C5;
+      color: white;
+      margin-top: 40px;
+      outline: none;
+      text-decoration: none;
+    }
+
+    a {
+      outline: none;
+      text-decoration: none;
+      color: white;
+    }
+
   @media only screen and (min-width: 300px) and (max-width: 1095px) {
     h1 {
       font-size: 20px;
@@ -47,8 +69,8 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 600px) and (max-width: 800px) {
     h1{
-      width: 300px;
-      font-size: 20px;
+      width: 500px;
+      font-size: 40px;
     }
 
     p {
@@ -59,8 +81,8 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 400px) and (max-width: 600px) {
     h1 {
-      font-size: 15px;
-      width: 300px;
+      font-size: 30px;
+      width: 400px;
     }
 
     p {
@@ -72,6 +94,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 280px) and (max-width: 400px) {
     h1 {
       width: 300px;
+      font-size: 20px;
     }
 
     p {

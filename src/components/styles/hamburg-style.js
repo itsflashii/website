@@ -24,6 +24,7 @@ export const HamburgStyle = styled.div`
   }
     
   li{ 
+    cursor: pointer !important;
     margin-bottom: 10px;
   }
 

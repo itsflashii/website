@@ -24,9 +24,9 @@ function App() {
         <>
       <Menu 
         txt1='Home'
-        txt2='Sobre'
+        txt2='A Varsel'
         txt3='Portifolio'
-        txt4='Varsel Source'
+        txt4='Contato'
         
       />
             <Landing 
@@ -63,6 +63,7 @@ function App() {
               CountBuss='260'
               largeText2='empresas contrataram a Varsel.'
               SmallText='Faça parte dessa lista, entre em contato conosco e faça um orçamento.'
+              buttonTxt='Enviar um Email'
             />
 
             <Footer 
