@@ -130,3 +130,31 @@ export const Container = styled.div`
         }
     }
 `;
+
+
+export const Language = styled.div`
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+
+     ul {
+        position: absolute;
+        right: 0;
+        margin-top: 15px;
+        margin-right: 20px;
+        text-align: center;
+        z-index: 1;
+    }
+    
+    li{
+        cursor: pointer !important;
+        display: inline-block;
+        margin-left: 10px;
+    }
+
+    a {
+ 
+        text-decoration: none;
+        color: #737380;
+        transition: 1s;
+    }
+`;

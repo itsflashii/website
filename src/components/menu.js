@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Container } from './styles/menu-style';
+import { Container, Language } from './styles/menu-style';
 import logo from '../assets/logo.svg'
 import HamburgMenu from '../components/hamburg';
 import { Link } from "react-scroll";
@@ -11,6 +11,19 @@ const Header = (props) => {
 
     return (
         <>
+        <Language >
+            <ul>
+                <li>
+                    <a href='/br'>BR /</a>
+                </li>
+                <li>
+                    <a href='/en'>EN /</a>
+                </li>
+                <li>
+                    <a href='/es'>ES</a>
+                </li>
+            </ul>
+        </Language>
         <Container id='menu'>
         
             <img src={logo} alt="Varsel" />

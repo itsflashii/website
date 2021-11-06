@@ -56,7 +56,11 @@ function App() {
               smallText="Veja o que algumas delas disseram:"
             />
 
-            <Portifolio />
+            <Portifolio 
+              largeText='Conheça alguns dos nossos principais trabalhos.'
+              smallText='Faça parte desta lista também, entre em contato com a Varsel.'
+            
+            />
             
             <Lab 
               largeText='Mais de'

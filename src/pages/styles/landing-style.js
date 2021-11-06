@@ -31,6 +31,7 @@ export const Container = styled.div`
         left: 140px;
     }
 
+
     .bgBlock1 {
         position: absolute;
         width: 100%;

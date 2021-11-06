@@ -3,6 +3,8 @@ import {
 } from 'react-router-dom';
 
 import ptBR from './portuguese';
+import enUS from './english';
+import esPN from './spanish';
 
 const Routes = () => (
     <Router>
@@ -12,7 +14,8 @@ const Routes = () => (
             </Route>
 
             <Route path="/br" component={ptBR} />
-
+            <Route path="/en" component={enUS} />
+            <Route path="/es" component={esPN} />
         </Switch>
     </Router>
 );

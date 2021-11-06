@@ -8,12 +8,14 @@ import Product4 from '../assets/products/4.png';
 import Product5 from '../assets/products/5.png';
 import Product6 from '../assets/products/6.png';
 
-const Porti = () => {
+const Porti = (props) => {
+  const {largeText, smallText} = props
+
   return (
     <>
     <Container id='portifolio'>
-      <h1>Conheça alguns dos nossos principais trabalhos.</h1>
-      <p>Faça parte desta lista também, entre em contato com a Varsel.</p>
+      <h1>{largeText}</h1>
+      <p>{smallText}</p>
       <img src={Computer} alt="Computador" align="right" />
     </Container>
       <Products>
