@@ -1,9 +1,11 @@
-import React from 'react';
+import * as React from 'react';
 import { Container } from './styles/menu-style';
 import logo from '../assets/logo.svg'
 import HamburgMenu from '../components/hamburg';
 const Header = (props) => {
     const { txt1, txt2, txt3, txt4 } = props
+    const aboutScroll = React.useRef(null)
+    const executeScroll = () => aboutScroll.current.scrollIntoView()    
 
     return (
         <>

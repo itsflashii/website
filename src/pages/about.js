@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Container, Cards } from './styles/about-style';
 import InfoCard from '../components/infoCard';
 
@@ -8,7 +8,7 @@ const About = (props) => {
 
     return (
         <>
-        <Container>
+        <Container ref='aboutScroll'>
             <h1>{largeText}</h1>
             <p>{smallText}</p>
             <img src={propImage} alt="Mobile App" />
