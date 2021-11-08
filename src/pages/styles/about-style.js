@@ -14,6 +14,7 @@ export const Container = styled.div`
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 35px;
+
     color: white;
 
     top: 150px;
@@ -44,6 +45,10 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 1249px) and (max-width: 1400px) {
+    h1 {
+      width: 90%;
+    }
+
 
     img {
       top: 200px;
@@ -72,6 +77,9 @@ export const Container = styled.div`
 }
 
   @media only screen and (min-width: 1160px) and (max-width: 1249px) {
+    h1 {
+      width: 90%;
+    }
 
     img {
       top: 195px;
@@ -83,6 +91,9 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 1110px) and (max-width: 1160px) {
+    h1 {
+      width: 90%;
+    }
 
     img {
       top: 195px;
@@ -94,6 +105,10 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 50px) and (max-width: 1110px) {
+    h1 {
+      width: 90%!important;
+      border: 1px solid green;
+    }
 
     img {
       display: none;
@@ -103,6 +118,7 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 200px) and (max-width: 800px) {
     h1 {
+      width: 90%!important;
       top: 100px;
     }
 
@@ -114,6 +130,7 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 700px) and (max-width: 800px) {
     h1 {
+      width: 90%!important;
       left: 92px;
     }
 
@@ -124,6 +141,7 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 690px) and (max-width: 760px) {
     h1 {
+      width: 90%!important;
       left: 78px;
     }
 
@@ -137,13 +155,13 @@ export const Container = styled.div`
 
     h1 {
       font-size: 27px;
-      width: 400px;
+      width: 90%!important;
 
       left: 72px;
     }
 
     p {
-      width: 450px;
+      width: 90;
       font-size: 13px;
 
       left: 75px;
@@ -155,13 +173,13 @@ export const Container = styled.div`
 
     h1 {
       font-size: 27px;
-      width: 400px;
+      width: 90%!important;
 
       left: 62px;
     }
 
     p {
-      width: 450px;
+      width: 90%;
       font-size: 13px;
 
       left: 65px;
@@ -172,7 +190,7 @@ export const Container = styled.div`
 
     h1 {
       font-size: 27px;
-      width: 417px;
+      width: 90%!important;
 
       left: 34px;
     }
@@ -193,7 +211,7 @@ export const Container = styled.div`
 
     h1 {
       font-size: 27px;
-      width: 100%;
+      width: 90%!important;
       left: 34px;
     }
 
@@ -208,7 +226,7 @@ export const Container = styled.div`
 
     h1 {
       font-size: 27px;
-      width: 375px;
+      width: 90%!important;
 
       left: 30px;
     }

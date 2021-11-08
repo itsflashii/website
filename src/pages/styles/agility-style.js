@@ -12,7 +12,6 @@ export const Container = styled.div`
         font-weight: 500;
         font-size: 34px;
         color: white;
-        
         top: 10px;
         left: 550px;
     }
@@ -39,7 +38,7 @@ export const Container = styled.div`
 
     @media only screen and (min-width: 1080px) and (max-width: 1167px) {
         margin-top: 200px;
-        
+
         h1 {
             left: 415px;
         }
