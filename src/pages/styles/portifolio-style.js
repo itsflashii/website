@@ -119,19 +119,23 @@ export const Products = styled.div`
 
   @media only screen and (min-width: 300px) and (max-width: 1095px) {
     width: 75%;
+    height: 100px;
   }
 
   @media only screen and (min-width: 600px) and (max-width: 800px) {
     img {
       width: 130px;
+      height: 100px;
     }
 
     left: 40px;
+    
   }
 
   @media only screen and (min-width: 400px) and (max-width: 600px) {
     img {
       width: 120px;
+      height: 100px;
     }
 
     left: 40px;
@@ -140,6 +144,7 @@ export const Products = styled.div`
   @media only screen and (min-width: 280px) and (max-width: 400px) {
     img {
       width: 90px;
+      height: 100px;
     }
   
       left: 10px;
