@@ -107,7 +107,6 @@ export const Container = styled.div`
   @media only screen and (min-width: 50px) and (max-width: 1110px) {
     h1 {
       width: 90%!important;
-      border: 1px solid green;
     }
 
     img {
