@@ -11,7 +11,7 @@ export const Container = styled.div`
     
     h1 {
         position: absolute;
-        width: 490px;
+        width: 410px;
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
         font-size: 30px;
@@ -47,7 +47,7 @@ export const Container = styled.div`
 
     @media only screen and (min-width: 1178px) and (max-width: 1360px) {
         img {
-            width: 340px;
+            width: 310px;
             top: 111px;
         }
     }
@@ -78,7 +78,7 @@ export const Container = styled.div`
         height: 522px;
 
         h1 {
-            width: 342px;
+            width: 312px;
             left: 40px;
         }
 
@@ -99,7 +99,7 @@ export const Container = styled.div`
 
         h1 {
             font-size: 27px;
-            width: 342px;
+            width: 312px;
             left: 40px;
         }
 
@@ -121,7 +121,7 @@ export const Container = styled.div`
 
         h1 {
             font-size: 27px;
-            width: 342px;
+            width: 312px;
             left: 30px;
         }
 
@@ -143,7 +143,7 @@ export const Container = styled.div`
 
         h1 {
             font-size: 27px;
-            width: 342px;
+            width: 312px;
             left: 30px;
         }
 
@@ -161,7 +161,7 @@ export const Container = styled.div`
 
         h1 {
             font-size: 27px;
-            width: 342px;
+            width: 312px;
             left: 30%;
         }
 
@@ -179,7 +179,7 @@ export const Container = styled.div`
 
         h1 {
             font-size: 27px;
-            width: 342px;
+            width: 312px;
             left: 20%;
         }
 
@@ -197,7 +197,7 @@ export const Container = styled.div`
 
         h1 {
             font-size: 27px;
-            width: 342px;
+            width: 312px;
             left: 10%;
         }
 
@@ -215,7 +215,7 @@ export const Container = styled.div`
 
         h1 {
             font-size: 27px;
-            width: 342px;
+            width: 312px;
             left: 5%;
         }
 
@@ -233,7 +233,7 @@ export const Container = styled.div`
 
         h1 {
             font-size: 24.5px;
-            width: 100%;
+            width: 90%;
             left: 10px;
         }
 

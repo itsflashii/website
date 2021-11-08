@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-   height: 90px;
+    height: 90px;
 
 
     h1 {
@@ -15,7 +15,7 @@ export const Container = styled.div`
       font-family: 'Poppins', sans-serif;
       font-size: 40px;
       font-weight: 700;
-      margin-top: 350px;
+      margin-top: 300px;
     }
 
     span {
@@ -59,7 +59,8 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 300px) and (max-width: 1095px) {
     h1 {
-      font-size: 20px;
+      font-size: 30px;
+      margin-top: 900px;
     }
 
     p {
@@ -71,6 +72,7 @@ export const Container = styled.div`
     h1{
       width: 500px;
       font-size: 40px;
+      margin-top: 900px;
     }
 
     p {
@@ -83,6 +85,7 @@ export const Container = styled.div`
     h1 {
       font-size: 30px;
       width: 400px;
+      margin-top: 900px;
     }
 
     p {
@@ -92,13 +95,22 @@ export const Container = styled.div`
 
 
   @media only screen and (min-width: 280px) and (max-width: 400px) {
+
+    
+
     h1 {
       width: 300px;
-      font-size: 20px;
+      font-size: 25px;
+      margin-top: 900px;
     }
 
     p {
+      top: 10px;
       width: 300px;
+    }
+
+    button {
+      top: 10px;
     }
   }
 

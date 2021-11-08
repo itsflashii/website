@@ -13,8 +13,9 @@ export const TestiMonialCard = styled.div`
   height: 200px;
   background-color: #060607;
   border-radius: 5px;
-
-
+  left: 115px;
+  margin-left: 10px;
+  margin-bottom: 10px;
   
   p {
     position: relative;

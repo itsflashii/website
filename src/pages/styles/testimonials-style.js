@@ -99,11 +99,11 @@ export const Container = styled.div`
 export const ContainerTestimonail = styled.div`
     display: flex;
     flex-wrap: wrap;
+    
     flex-direction: row;
     position: relative;
     width: 90%;
-    border: 1px solid blue;
     top: 350px;
-
+    left: 10px;
     
 `;
