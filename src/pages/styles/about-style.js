@@ -199,7 +199,7 @@ export const Container = styled.div`
     }
 
     p {
-      width: 100%;
+      width: 90%;
       font-size: 13px;
       color: green;
       left: 34px;
