@@ -101,26 +101,9 @@ export const ContainerTestimonail = styled.div`
     flex-wrap: wrap;
     flex-direction: row;
     position: relative;
-    width: 100%;
-    top: 320px;
-    left: 120px;
+    width: 90%;
     border: 1px solid blue;
+    top: 350px;
 
-
-    @media only screen and (min-width: 770px) and (max-width: 846px) {
-      margin-left: 90px;
-      left: -45px;
-    }
-
-    @media only screen and (min-width: 846px) and (max-width: 986px) {
-      margin-left: 85px;
-      left: -25px;
-    }
-
-
-    @media only screen and (min-width: 410px) and (max-width: 640px) {
-      width: 100%;
-      left: 100px;
-    }
     
 `;

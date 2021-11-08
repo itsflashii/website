@@ -5,14 +5,15 @@ export const TestiMonialCard = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
   
 
+
+  
   cursor: pointer;
   position: relative;
   width: 363px;
   height: 200px;
   background-color: #060607;
   border-radius: 5px;
-  margin-left: 30px;
-  margin-bottom: 20px;
+
 
   
   p {
