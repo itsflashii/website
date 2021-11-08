@@ -5,7 +5,7 @@ export const Container = styled.div`
 
 
    position: absolute;
-   width: 98%;
+   width: 90%;
    height: 100vh;
 
   h1 {
@@ -101,7 +101,7 @@ export const ContainerTestimonail = styled.div`
     flex-wrap: wrap;
     flex-direction: row;
     position: relative;
-    width: 80%;
+    width: 100%;
     top: 320px;
     left: 120px;
 
