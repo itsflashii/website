@@ -60,7 +60,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 300px) and (max-width: 1095px) {
     h1 {
       font-size: 30px;
-      margin-top: 900px;
+      margin-top: 600px;
     }
 
     p {
@@ -72,7 +72,7 @@ export const Container = styled.div`
     h1{
       width: 500px;
       font-size: 40px;
-      margin-top: 900px;
+      margin-top: 600px;
     }
 
     p {
@@ -85,7 +85,7 @@ export const Container = styled.div`
     h1 {
       font-size: 30px;
       width: 400px;
-      margin-top: 900px;
+      margin-top: 600px;
     }
 
     p {
@@ -101,7 +101,7 @@ export const Container = styled.div`
     h1 {
       width: 300px;
       font-size: 25px;
-      margin-top: 900px;
+      margin-top: 600px;
     }
 
     p {

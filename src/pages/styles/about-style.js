@@ -4,7 +4,7 @@ export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
   position: relative;
-  height: 100vh;
+  height: 90vh;
   background-color: #060607;
   border-top: 1px solid rgba(115, 115, 128, 0.29);
   border-bottom: 1px solid rgba(115, 115, 128, 0.29);
@@ -185,6 +185,27 @@ export const Container = styled.div`
     }
   }
 
+
+
+  @media only screen and (min-width: 0px) and (max-width: 552px) {
+
+    height: 110vh;
+
+    h1 {
+      font-size: 27px;
+      width: 417px;
+
+      left: 34px;
+    }
+
+    p {
+      width: 450px;
+      font-size: 13px;
+
+      left: 34px;
+    }
+}
+
   @media only screen and (min-width: 475px) and (max-width: 490px) {
 
     h1 {
@@ -209,10 +230,15 @@ export const Cards = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     
-    top: -290px;
+    top: -210px;
     left: 45px;
     @media only screen and (min-width: 200px) and (max-width: 800px) {
       top: -395px!important;
+    }
+
+    @media only screen and (min-width: 593px) and (max-width: 800px) {
+      top: -400px!important;
+      left: -14px!important;
     }
 
     @media only screen and (min-width: 700px) and (max-width: 800px) {
@@ -228,7 +254,7 @@ export const Cards = styled.div`
       left: 0px!important;
     }
 
-    @media only screen and (min-width: 340px) and (max-width: 552px) {
+    @media only screen and (min-width: 340px) and (max-width: 572px) {
       left: -40px!important;
     }
     
@@ -253,5 +279,9 @@ export const Cards = styled.div`
       left: -10px;
     }
 
+    @media only screen and (min-width: 0px) and (max-width: 460px) {
+      margin-top: -50px;
+      margin-left: 20px;
+    }
 
 `; 
