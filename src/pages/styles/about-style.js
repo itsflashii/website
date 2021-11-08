@@ -199,9 +199,9 @@ export const Container = styled.div`
     }
 
     p {
-      width: 450px;
+      width: 100%;
       font-size: 13px;
-
+      color: green;
       left: 34px;
     }
 }
