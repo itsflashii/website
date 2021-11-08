@@ -194,14 +194,12 @@ export const Container = styled.div`
     h1 {
       font-size: 27px;
       width: 100%;
-      color: red;
       left: 34px;
     }
 
     p {
-      width: 90%;
+      width: 80%;
       font-size: 13px;
-      color: green;
       left: 34px;
     }
 }
@@ -282,6 +280,7 @@ export const Cards = styled.div`
     @media only screen and (min-width: 0px) and (max-width: 460px) {
       margin-top: -50px;
       margin-left: 20px;
+      display: none;
     
     }
 
