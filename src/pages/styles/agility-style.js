@@ -38,6 +38,8 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 1080px) and (max-width: 1167px) {
+        margin-top: 200px;
+        
         h1 {
             left: 415px;
         }
@@ -48,6 +50,7 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 986px) and (max-width: 1080px) {
+        margin-top: 200px;
 
         h1 {
             left: 400px;
@@ -65,12 +68,15 @@ export const Container = styled.div`
 
 
     @media only screen and (min-width: 0px) and (max-width: 986px) {
+        margin-top: 200px;
+
         img {
             display: none;
         }
     }
 
     @media only screen and (min-width: 660px) and (max-width: 986px) {
+        margin-top: 200px;
         h1 {
             left: 27%;
         }
@@ -83,6 +89,7 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 496px) and (max-width: 660px) {
+        margin-top: 200px;
         h1 {
             font-size: 30px;
             left: 15%;
@@ -96,6 +103,7 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 325px) and (max-width: 496px) {
+        margin-top: 200px;
         h1 {
             width: 95%;
             font-size: 26px;
@@ -110,6 +118,7 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 285px) and (max-width: 325px) {
+        margin-top: 200px;
         h1 {
             width: 100%;
             font-size: 25px;
