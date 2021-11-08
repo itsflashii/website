@@ -4,6 +4,7 @@ export const Container = styled.div`
   @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
   position: relative;
+  width: 100%!important;
   height: 90vh;
   background-color: #060607;
   border-top: 1px solid rgba(115, 115, 128, 0.29);
@@ -61,13 +62,13 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 0px) and (max-width: 900px) {
     h1 {
-      width: 90%;
+      width: 40%!important;
       font-size: 27px;
       left: 15px;
     }
 
     p {
-      width: 90%;
+      width: 40%!important;
       font-size: 13px;
       left: 15px;
     }
@@ -106,7 +107,7 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 50px) and (max-width: 1110px) {
     h1 {
-      width: 90%!important;
+      width: 60%!important;
     }
 
     img {
@@ -205,7 +206,6 @@ export const Container = styled.div`
 
 
   @media only screen and (min-width: 0px) and (max-width: 552px) {
-
     height: 110vh;
 
     h1 {
@@ -222,6 +222,7 @@ export const Container = styled.div`
 }
 
   @media only screen and (min-width: 475px) and (max-width: 490px) {
+   
 
     h1 {
       font-size: 27px;
@@ -244,6 +245,8 @@ export const Cards = styled.div`
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 90%!important;
+
     
     top: -210px;
     left: 45px;
@@ -297,8 +300,6 @@ export const Cards = styled.div`
     @media only screen and (min-width: 0px) and (max-width: 460px) {
       margin-top: -50px;
       margin-left: 20px;
-      display: none;
-    
     }
 
 `; 

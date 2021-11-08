@@ -20,7 +20,7 @@ export const Container = styled.div`
 
   p {
       position: relative;
-      width: 330px;
+      width: 100%!important;
       color: #737380;
       font-family: 'Roboto', sans-serif;
       font-size: 20px;
@@ -30,10 +30,12 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 846px) and (max-width: 986px) {
     h1 {
+      width: 100%!important;
       left: 100px;
     }
 
     p {
+      width: 100%!important;
       left: 100px;
     }
 
@@ -42,11 +44,14 @@ export const Container = styled.div`
   @media only screen and (min-width: 546px) and (max-width: 846px) {
 
     h1 {
+      width: 100%!important;
       left: 50px;
     }
 
     p {
+      width: 100%!important;
       left: 50px;
+      
     }
 
   }
@@ -55,11 +60,13 @@ export const Container = styled.div`
 
     h1 {
       font-size: 27px;
+      width: 100%!important;
       left: 20px;
     }
 
     p {
       font-size: 17px;
+      width: 100%;
       left: 20px;
     }
 
@@ -69,11 +76,13 @@ export const Container = styled.div`
 
     h1 {
       font-size: 22px;
+      width: 100%!important;
       left: 20px;
     }
 
     p {
       font-size: 15px;
+      width: 100%!important;
       left: 20px;
     }
 
