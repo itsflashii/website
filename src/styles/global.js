@@ -8,10 +8,10 @@ export default createGlobalStyle `
         box-sizing: border-box;
 
        // overflow-x: hidden;
-       border: 1px solid red; // DEBUG
+      // border: 1px solid red; // DEBUG
 
 
-       //border: 0;
+       border: 0;
        outline: 0;
        vertical-align: baseline;
        font-weight: inherit;

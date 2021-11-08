@@ -104,6 +104,7 @@ export const ContainerTestimonail = styled.div`
     width: 100%;
     top: 320px;
     left: 120px;
+    border: 1px solid blue;
 
 
     @media only screen and (min-width: 770px) and (max-width: 846px) {
