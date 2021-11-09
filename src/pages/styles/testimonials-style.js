@@ -20,7 +20,7 @@ export const Container = styled.div`
 
   p {
       position: relative;
-      width: 100%!important;
+      width: 300px;
       color: #737380;
       font-family: 'Roboto', sans-serif;
       font-size: 20px;
@@ -35,7 +35,7 @@ export const Container = styled.div`
     }
 
     p {
-      width: 100%!important;
+      width: 200px;
       left: 100px;
     }
 
@@ -49,7 +49,7 @@ export const Container = styled.div`
     }
 
     p {
-      width: 100%!important;
+      width: 200px;
       left: 50px;
       
     }
@@ -66,7 +66,7 @@ export const Container = styled.div`
 
     p {
       font-size: 17px;
-      width: 100%;
+      width: 200px;
       left: 20px;
     }
 
@@ -82,7 +82,7 @@ export const Container = styled.div`
 
     p {
       font-size: 15px;
-      width: 100%!important;
+      width: 200px;
       left: 20px;
     }
 
@@ -97,6 +97,7 @@ export const Container = styled.div`
     }
 
     p {
+      width: 200px;
       font-size: 14px;
       left: 11px;
     }
