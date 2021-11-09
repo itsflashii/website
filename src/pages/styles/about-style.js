@@ -5,7 +5,7 @@ export const Container = styled.div`
 
   position: relative;
   width: 100%!important;
-  height: 90vh;
+  height: 700px;
   background-color: #060607;
   border-top: 1px solid rgba(115, 115, 128, 0.29);
   border-bottom: 1px solid rgba(115, 115, 128, 0.29);
@@ -62,7 +62,7 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 0px) and (max-width: 900px) {
     h1 {
-      width: 40%!important;
+      width: 90%!important;
       font-size: 27px;
       left: 15px;
     }
@@ -106,6 +106,8 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 50px) and (max-width: 1110px) {
+    
+    height: 900px;
     h1 {
       width: 60%!important;
     }
@@ -117,6 +119,8 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 200px) and (max-width: 800px) {
+    height: 870px;
+
     h1 {
       width: 90%!important;
       top: 100px;
@@ -129,6 +133,8 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 700px) and (max-width: 800px) {
+    height: 860px;
+
     h1 {
       width: 90%!important;
       left: 92px;
@@ -140,6 +146,7 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 690px) and (max-width: 760px) {
+    height: 850px;
     h1 {
       width: 90%!important;
       left: 78px;
@@ -152,7 +159,7 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 569px) and (max-width: 690px) {
-
+    height: 900px;
     h1 {
       font-size: 27px;
       width: 90%!important;
@@ -170,7 +177,7 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 552px) and (max-width: 569px) {
-
+    height: 800px;
     h1 {
       font-size: 27px;
       width: 90%!important;
@@ -187,7 +194,7 @@ export const Container = styled.div`
   }
 
   @media only screen and (min-width: 490px) and (max-width: 552px) {
-
+    height: 800px;
     h1 {
       font-size: 27px;
       width: 90%!important;
@@ -205,24 +212,24 @@ export const Container = styled.div`
 
 
 
-  @media only screen and (min-width: 0px) and (max-width: 552px) {
-    height: 110vh;
+  @media only screen and (min-width: 0px) and (max-width: 490px) {
+    height: 800px;
 
     h1 {
       font-size: 27px;
-      width: 40%!important;
+      width: 60%!important;
       left: 34px;
     }
 
     p {
-      width: 80%;
+      width: 90%!important;
       font-size: 13px;
       left: 34px;
     }
 }
 
   @media only screen and (min-width: 475px) and (max-width: 490px) {
-   
+   height: 800px;
 
     h1 {
       font-size: 27px;
@@ -285,7 +292,8 @@ export const Cards = styled.div`
     }
 
     @media only screen and (min-width: 200px) and (max-width: 430px) {
-      top: -284px!important;
+      left: -50px!important;
+      top: -350px!important;
     }
 
     @media only screen and (min-width: 300px) and (max-width: 700px) {
@@ -297,9 +305,6 @@ export const Cards = styled.div`
       left: -10px;
     }
 
-    @media only screen and (min-width: 0px) and (max-width: 460px) {
-      margin-top: -50px;
-      margin-left: 20px;
-    }
+
 
 `; 

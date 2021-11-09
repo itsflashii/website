@@ -105,6 +105,7 @@ export const Products = styled.div`
   img {
     cursor: pointer;
     width: 150px;
+    height: 240px;
     z-index: 1;
     margin-left: 20px;
     margin-bottom: 30px;
@@ -125,7 +126,7 @@ export const Products = styled.div`
   @media only screen and (min-width: 600px) and (max-width: 800px) {
     img {
       width: 130px;
-      height: 100px;
+      height: 140px;
     }
 
     left: 40px;
@@ -135,16 +136,25 @@ export const Products = styled.div`
   @media only screen and (min-width: 400px) and (max-width: 600px) {
     img {
       width: 120px;
-      height: 100px;
+      height: 140px;
     }
 
     left: 40px;
   }
 
-  @media only screen and (min-width: 280px) and (max-width: 400px) {
+  @media only screen and (min-width: 315px) and (max-width: 400px) {
     img {
       width: 90px;
-      height: 100px;
+      height: 110px;
+    }
+  
+      left: 10px;
+  }
+
+  @media only screen and (min-width: 280px) and (max-width: 315px) {
+    img {
+      width: 90px;
+      height: 140px;
     }
   
       left: 10px;
