@@ -105,8 +105,8 @@ export const Products = styled.div`
   img {
     cursor: pointer;
     width: 150px;
-    height: 240px;
-    z-index: 1;
+    height: 180px;
+   
     margin-left: 20px;
     margin-bottom: 30px;
     transition: 1s;
