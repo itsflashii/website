@@ -18,7 +18,7 @@ const Testimonials = (props) => {
                     person="Vítor Ribeiro"
                     job="CTO | Varsel"
                     rating="5"
-                    avatar="http://afernandes.adv.br/wp-content/uploads/Team-Member-3.jpg"
+                    avatar="https://ui-avatars.com/api/?name=Vitor+Ribeiro"
                     className="test1"
                     />
                     
@@ -27,7 +27,7 @@ const Testimonials = (props) => {
                     person="Vítor Ribeiro"
                     job="CTO | Varsel"
                     rating="5"
-                    avatar="http://afernandes.adv.br/wp-content/uploads/Team-Member-3.jpg"
+                    avatar="https://ui-avatars.com/api/?name=Joao+Carlos"
                     />
                     
                     <Testimonial 
@@ -35,7 +35,7 @@ const Testimonials = (props) => {
                     person="Vítor Ribeiro"
                     job="CTO | Varsel"
                     rating="5"
-                    avatar="http://afernandes.adv.br/wp-content/uploads/Team-Member-3.jpg"
+                    avatar="https://ui-avatars.com/api/?name=Marco+Antonio"
                     />
                     
                     <Testimonial 
@@ -43,7 +43,7 @@ const Testimonials = (props) => {
                     person="Vítor Ribeiro"
                     job="CTO | Varsel"
                     rating="5"
-                    avatar="http://afernandes.adv.br/wp-content/uploads/Team-Member-3.jpg"
+                    avatar="https://ui-avatars.com/api/?name=Marcio+Ribeiro"
                     />
                 </ContainerTestimonail>
         </>
