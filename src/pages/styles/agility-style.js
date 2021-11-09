@@ -41,11 +41,11 @@ export const Container = styled.div`
         margin-top: 200px;
 
         h1 {
-            left: 415px;
+            left: 505px;
         }
 
         p {
-            left: 415px;
+            left: 505px;
         }
     }
 
