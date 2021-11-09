@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from './styles/landing-style';
-import bgImage from '../assets/bg1.png'
+import bgImage from '../assets/bg1.webp'
 import { Link } from "react-scroll";
 
 //import { isReadyStateMatch } from "react-ready-state-effect";

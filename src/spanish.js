@@ -13,9 +13,9 @@ import Lab from './pages/lab'
 import Menu from './components/menu';
 import Footer from './components/footer';
 
-import AgilityLarge from './assets/propImage.png'
-import Phone from './assets/celular.png'
-import MobileLogin from './assets/undraw_mobile_login.png';
+import AgilityLarge from './assets/propImage.webp'
+import Phone from './assets/celular.webp'
+import MobileLogin from './assets/undraw_mobile_login.webp';
 
 
 

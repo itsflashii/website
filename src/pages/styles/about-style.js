@@ -210,7 +210,7 @@ export const Container = styled.div`
 
     h1 {
       font-size: 27px;
-      width: 90%!important;
+      width: 40%!important;
       left: 34px;
     }
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Navi } from './styles/footer-style';
-import svgLogo from '../assets/varselInfos.png';
+import svgLogo from '../assets/varselInfos.webp';
 
 const Footer = (props) => {
 
