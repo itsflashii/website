@@ -45,6 +45,10 @@ function App() {
               largeText='Agility and Quality.'
               smallText="Productivity is the basis for a good project, being mainly influenced by a good job. Here it can't be different, it doesn't. We bring the tranquility of a refined & agile project, being framed by the ideas of our contracting clients."
               propImage={AgilityLarge}
+              front="Working with the best technologies on the market, we have a team dedicated only to your website's front-end."
+              back='How about integrating another platform into your app? You choose, we do.'
+              uix='A unique design for your website, show us your idea. we create what you think.'
+              edit='Expand your idea, how about a trailer for your project?'
             />
             <Design 
               largeText='Design according to your taste and brand.'

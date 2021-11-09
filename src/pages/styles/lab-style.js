@@ -43,11 +43,13 @@ export const Container = styled.div`
       font-family: 'Poppins';
       font-weight: 500;
       font-size: 14px;
-      border-radius: 3%;
+      border-radius: 5%;
+      border: none;
       background-color: #6E64C5;
       color: white;
       margin-top: 40px;
       outline: none;
+      
       text-decoration: none;
     }
 

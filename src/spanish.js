@@ -45,6 +45,10 @@ function App() {
               largeText='Agilidad y Calidad.'
               smallText="La productividad es la base de un buen proyecto, influenciada principalmente por un buen trabajo. Aquí no puede ser diferente, no es así. Aportamos la tranquilidad de un proyecto refinado y ágil, enmarcado en las ideas de nuestros clientes contratantes."
               propImage={AgilityLarge}
+              front='Trabajando con las mejores tecnologías del mercado, contamos con un equipo dedicado únicamente al front-end de su sitio web.'
+              back='¿Qué tal la integración de otra plataforma en su aplicación? Tú eliges, nosotros lo hacemos.'
+              uix='Un diseño único para tu web, enséñanos tu idea. creamos lo que piensas.'
+              edit='Expande tu idea, ¿qué tal un tráiler para tu proyecto?'
             />
             <Design 
               largeText='Diseña según tu gusto y marca.'
@@ -57,7 +61,7 @@ function App() {
             />
 
             <Portifolio 
-              largeText='Discover some of our main works.'
+              largeText='Descubre algunas de nuestras principales obras.'
               smallText='Mira lo que algunas de ellas dijeron:'
             
             />

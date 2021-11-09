@@ -3,7 +3,7 @@ import { Container, Cards } from './styles/agility-style';
 import InfoCard from '../components/infoCard';
 
 const Agility = (props) => {
-    const { largeText, smallText, propImage } = props
+    const { largeText, smallText, propImage, front, back, uix, edit } = props
 
     return (
         <>
@@ -16,20 +16,20 @@ const Agility = (props) => {
         <Cards>
             <InfoCard
                 cardLargeText="Front-End"
-                cardSmallText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " 
+                cardSmallText={front}
             />
 
             <InfoCard
                 cardLargeText="Back-End"
-                cardSmallText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " 
+                cardSmallText={back}
             />
             <InfoCard
                 cardLargeText="UI/UX"
-                cardSmallText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " 
+                cardSmallText={uix}
             />
             <InfoCard
                 cardLargeText="Designers/Editores"
-                cardSmallText="Lorem ipsum dolor sit amet, consectetuer adipiscing elit. " 
+                cardSmallText={edit}
             />
         </Cards>
         </>
