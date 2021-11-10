@@ -51,7 +51,7 @@ function App() {
               propImage={AgilityLarge}
               front='Trabalhando com as melhores tecnologias do mercado, nós temos uma equipe dedicada somente ao front-end do seu website.'
               back='Que tal fazer a integração de outra plataforma em seu app? Você escolhe, nós fazemos.'
-              uix='Um design unico para seu site, nos mostra sua ideia. nós criamos oque você pensa.'
+              uix='Um design unico para seu site, nos mostre sua ideia. nós criamos oque você pensa.'
               edit='Expanda a sua ideia, que tal um trailer do seu projeto?'
 
 
