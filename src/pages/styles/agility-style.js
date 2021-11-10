@@ -4,7 +4,7 @@ export const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
     position: relative;
-    height: 490px;
+    height: 300px;
 
     h1 {
         position: absolute;
@@ -33,12 +33,12 @@ export const Container = styled.div`
         position: absolute;
         width: 300px;
         height: 611px;
-        top: 10px;
+        top: -100px;
         left: 160px;
     }
 
     @media only screen and (min-width: 1080px) and (max-width: 1167px) {
-        margin-top: 200px;
+      
 
         h1 {
             left: 505px;
@@ -50,7 +50,7 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 986px) and (max-width: 1080px) {
-        margin-top: 200px;
+       
 
         h1 {
             left: 400px;
@@ -67,8 +67,8 @@ export const Container = styled.div`
     }
 
 
-    @media only screen and (min-width: 0px) and (max-width: 986px) {
-        margin-top: 200px;
+    @media only screen and (min-width: 0px) and (max-width: 985px) {
+  
 
         img {
             display: none;
@@ -76,7 +76,8 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 660px) and (max-width: 986px) {
-        margin-top: 200px;
+        margin-top: -250px;
+
         h1 {
             left: 27%;
         }
@@ -89,7 +90,8 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 496px) and (max-width: 660px) {
-        margin-top: 200px;
+        margin-top: -250px;
+
         h1 {
             font-size: 30px;
             left: 15%;
@@ -103,7 +105,7 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 325px) and (max-width: 496px) {
-        margin-top: 200px;
+        margin-top: -250px;
         h1 {
             width: 95%;
             font-size: 26px;
@@ -117,8 +119,9 @@ export const Container = styled.div`
         }
     }
 
-    @media only screen and (min-width: 285px) and (max-width: 325px) {
-        margin-top: 200px;
+    @media only screen and (min-width: 285px) and (max-width: 362px) {
+        margin-top: -200px;
+
         h1 {
             width: 100%;
             font-size: 25px;
@@ -143,31 +146,31 @@ export const Cards = styled.div`
     
     width: 800px;
    // border: 1px solid red;
-    top: -260px;
+    top: -60px;
     left: 465px;
 
 
     @media only screen and (min-width: 660px) and (max-width: 986px) {
         left: 18%;
-        top: -223px;
+        top: -53px;
         width: 100px;
     }
 
     @media only screen and (min-width: 496px) and (max-width: 660px) {
         left: 8%;
-        top: -223px;
+        top: -53px;
         width: 100px;
     }
 
     @media only screen and (min-width: 395px) and (max-width: 496px) {
         left: -30px;
-        top: -223px;
+        top: -53px;
         width: 100px;
     }
 
     @media only screen and (min-width: 300px) and (max-width: 395px) {
         left: -70px;
-        top: -223px;
+        top: -53px;
         width: 100px;
     }
 

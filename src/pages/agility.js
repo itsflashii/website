@@ -24,7 +24,7 @@ const Agility = (props) => {
                 cardSmallText={back}
             />
             <InfoCard
-                cardLargeText="UI/UX"
+                cardLargeText="Ui/Ux"
                 cardSmallText={uix}
             />
             <InfoCard

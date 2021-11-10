@@ -20,7 +20,7 @@ export const Container = styled.div`
 
   p {
       position: relative;
-      width: 300px;
+      width: 400px;
       color: #737380;
       font-family: 'Roboto', sans-serif;
       font-size: 20px;

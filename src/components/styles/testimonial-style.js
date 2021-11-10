@@ -39,7 +39,7 @@ export const TestiMonialCard = styled.div`
   }
 
   h3 {
-    width: 100px;
+    width: 200px;
     position: relative;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -51,7 +51,7 @@ export const TestiMonialCard = styled.div`
 
   h5 {
     position: relative;
-    width: 75px;
+    width: 200px;
     color: #737380;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;

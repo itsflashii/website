@@ -14,36 +14,36 @@ const Testimonials = (props) => {
             </Container>
             <ContainerTestimonail>
                     <Testimonial 
-                    message="“Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.”"
-                    person="Vítor Ribeiro"
-                    job="CTO | Varsel"
+                    message="“Estava precisando de um e-commerce para meu atelier, e consegui algo incrivel com o pessoal da Varsel. Estão de parabéns 👏🏻👏🏻”"
+                    person="Lurdes Canabarro"
+                    job="Atelier Pano Bello"
                     rating="5"
-                    avatar="https://ui-avatars.com/api/?name=Vitor+Ribeiro"
+                    avatar='https://ui-avatars.com/api/?background=D20528&color=fff&name=Lurdes+Canabarro'
                     className="test1"
                     />
                     
                     <Testimonial 
-                    message="“Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.”"
-                    person="Vítor Ribeiro"
-                    job="CTO | Varsel"
+                    message="“Show de bola!! Estava a procura de uma empresa que conseguisse fazer alguns sistemas para meu servidor. Atendimento 10/10 sem problemas, continuem assim.”"
+                    person="Caio Castro"
+                    job="Owner | Sunrise Roleplay"
                     rating="5"
-                    avatar="https://ui-avatars.com/api/?name=Joao+Carlos"
+                    avatar='https://ui-avatars.com/api/?background=0570D2&color=fff&name=Caio+Castro'
                     />
                     
                     <Testimonial 
-                    message="“Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.”"
-                    person="Vítor Ribeiro"
-                    job="CTO | Varsel"
+                    message='"Precisei de uma integração nova em minha plataforma, obrigado Varsel pelo atendimento & suporte."'
+                    person="Pedro Campos"
+                    job="Front-end | Overtime"
                     rating="5"
-                    avatar="https://ui-avatars.com/api/?name=Marco+Antonio"
+                    avatar='https://ui-avatars.com/api/?background=FF8A00&color=fff&name=Pedro+Campos'
                     />
                     
                     <Testimonial 
-                    message="“Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.”"
-                    person="Vítor Ribeiro"
-                    job="CTO | Varsel"
+                    message="“Estava precisando de algo simples e me surpreendi com a agilidade na produção! Atenciosos & Pacientes no desenvolvimento. Obrigado a Varsel pelo ótimo trabalho.”"
+                    person="Samanta Bueno"
+                    job="Central  Calçados"
                     rating="5"
-                    avatar="https://ui-avatars.com/api/?name=Marcio+Ribeiro"
+                    avatar="https://ui-avatars.com/api/?name=Samanta+Bueno"
                     />
                 </ContainerTestimonail>
         </>
