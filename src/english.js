@@ -40,6 +40,10 @@ function App() {
               largeText='Why hire Varsel?'
               smallText="The most correct question would be, Why not hire Varsel. We have a qualified and flexible team for all types of projects and projects, relying on our versatility and quality. All our projects and automation are carried out using the most up-to-date tools on the market Improving and optimizing your project even more Are you still not satisfied? There's more, everyone has a seal of quality & safety from several professionals in the area. What are you waiting for? Come be part of our world."
               propImage={MobileLogin}
+              text1='Team work.'
+              text2='Large-scale projects.'
+              msg1="The gathering of specialized talents in their area, with different characteristics, makes the whole more complete and more capable of reaching our customers' satisfaction."
+              msg2='Already have a big data project and want to recreate it? without any problems, varsel is fully supported by large-scale projects. we can take the stride'
             />
             <Agility 
               largeText='Agility and Quality.'

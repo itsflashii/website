@@ -40,6 +40,10 @@ function App() {
               largeText='Por que contratar a Varsel ?'
               smallText='A pergunta mas certa seria, "Por que não contratar a Varsel. Temos uma equipe qualificada e flexível a todo tipo de empreendimento e projeto, contando com a nossa versatilidade e qualidade. todos nossos projetos e automações são feito utilizando as ferramentas mais atualizadas do mercado. Melhorando e otimizando ainda mais seu projeto. Ainda não está satisfeito? Tem mais, todos passam por um selo de qualidade & segurança de vários profissionais da área. O que você está esperando? venha fazer parte do nosso mundo.'
               propImage={MobileLogin}
+              text1='Trabalho em equipe.'
+              text2='Projetos em larga escala.'
+              msg1='A reunião de talentos especializados em sua área, com características diferentes, tornam o todo mais completo e mais capacitado para chegar até a satisfação dos nossos clientes.'
+              msg2='Já tem um projeto bigdata e quer recrialo? sem problemas, a varsel tem o total suporte de projetos em larga escala. Nós aguentamos o tranco'
             />
             <Agility 
               largeText='Agilidade & Qualidade.'
