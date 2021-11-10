@@ -67,7 +67,12 @@ function App() {
             <Portifolio 
               largeText='Discover some of our main works.'
               smallText='Be part of this list too, contact Varsel.'
-            
+              link2='https://jelly-raisin-7a6.notion.site/SEV7N-CLIENT-bcab7d87bb7046e99902137583a67256'
+              link1='https://jelly-raisin-7a6.notion.site/Ops-a6afc3ae82b94b1b85eab194158bf071'
+              link3='https://jelly-raisin-7a6.notion.site/Sunrise-Roleplay-70d245f94fb24d28b15fcf004c6b6382'
+              link4='https://jelly-raisin-7a6.notion.site/Ops-a6afc3ae82b94b1b85eab194158bf071'
+              link5='https://jelly-raisin-7a6.notion.site/Ops-a6afc3ae82b94b1b85eab194158bf071'
+              link6='https://jelly-raisin-7a6.notion.site/Ops-a6afc3ae82b94b1b85eab194158bf071'
             />
             
             <Lab 
