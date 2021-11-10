@@ -12,7 +12,7 @@ const Routes = () => (
             <Route exact path="/">
                 <Redirect to="/br" />
             </Route>
-
+            <Route path="*" component={ptBR} status={404}/>
             <Route path="/br" component={ptBR} />
             <Route path="/en" component={enUS} />
             <Route path="/es" component={esPN} />
