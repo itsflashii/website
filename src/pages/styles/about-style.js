@@ -11,6 +11,7 @@ export const Container = styled.div`
   border-bottom: 1px solid rgba(115, 115, 128, 0.29);
 
   h1 {
+    width: 35rem;
     position: relative;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -24,7 +25,7 @@ export const Container = styled.div`
 
   p {
     position: relative;
-    width: 650px;
+    width: 30rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
