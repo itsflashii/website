@@ -12,7 +12,7 @@ export const Container = styled.div`
         font-weight: 500;
         font-size: 34px;
         color: white;
-        top: 10px;
+        top: -80px;
         left: 550px;
     }
 
@@ -25,7 +25,7 @@ export const Container = styled.div`
         font-size: 16px;
         color: #737380;
 
-        top: 80px;
+        top: -20px;
         left: 550px;
     }
 
@@ -76,7 +76,7 @@ export const Container = styled.div`
     }
 
     @media only screen and (min-width: 660px) and (max-width: 986px) {
-        margin-top: -250px;
+     
 
         h1 {
             left: 27%;
@@ -146,7 +146,7 @@ export const Cards = styled.div`
     
     width: 800px;
    // border: 1px solid red;
-    top: -60px;
+    top: -150px;
     left: 465px;
 
 

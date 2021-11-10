@@ -105,11 +105,16 @@ export const Container = styled.div`
     
   }
 
-  @media only screen and (min-width: 50px) and (max-width: 1110px) {
+  @media only screen and (min-width: 50px) and (max-width: 1210px) {
     
-    height: 900px;
+    height: 690px;
     h1 {
       width: 60%!important;
+      left: 135px;
+    }
+
+    p {
+      left: 135px;
     }
 
     img {
@@ -118,21 +123,23 @@ export const Container = styled.div`
     
   }
 
-  @media only screen and (min-width: 200px) and (max-width: 800px) {
-    height: 870px;
+  @media only screen and (min-width: 200px) and (max-width: 892px) {
+    height: 850px;
 
     h1 {
       width: 90%!important;
       top: 100px;
+      left: 135px;
     }
 
     p {
       top: 120px;
+      left: 135px;
     }
 
   }
 
-  @media only screen and (min-width: 700px) and (max-width: 800px) {
+  @media only screen and (min-width: 810px) and (max-width: 800px) {
     height: 860px;
 
     h1 {
@@ -145,44 +152,45 @@ export const Container = styled.div`
     }
   }
 
-  @media only screen and (min-width: 690px) and (max-width: 760px) {
-    height: 850px;
+  @media only screen and (min-width: 690px) and (max-width: 798px) {
+    height: 800px;
     h1 {
       width: 90%!important;
-      left: 78px;
+      left: 115px;
     }
 
     p {
       width: 570px;
       left: 80px;
+      left: 115px;
+
     }
   }
 
-  @media only screen and (min-width: 569px) and (max-width: 690px) {
-    height: 900px;
+  @media only screen and (min-width: 569px) and (max-width: 740px) {
+    height: 800px;
+
     h1 {
       font-size: 27px;
       width: 90%!important;
-
-      left: 72px;
+      left: 85px;
     }
 
     p {
       width: 90;
       font-size: 13px;
 
-      left: 75px;
+      left: 85px;
     }
 
   }
 
-  @media only screen and (min-width: 552px) and (max-width: 569px) {
+  @media only screen and (min-width: 590px) and (max-width: 569px) {
     height: 800px;
     h1 {
       font-size: 27px;
       width: 90%!important;
-
-      left: 62px;
+      left: 100px;
     }
 
     p {
@@ -193,20 +201,19 @@ export const Container = styled.div`
     }
   }
 
-  @media only screen and (min-width: 490px) and (max-width: 552px) {
+  @media only screen and (min-width: 490px) and (max-width: 590px) {
     height: 800px;
     h1 {
       font-size: 27px;
       width: 90%!important;
 
-      left: 34px;
+      left: 50px;
     }
 
     p {
-      width: 450px;
+      width: 70%!important;
       font-size: 13px;
-
-      left: 34px;
+      left: 50px;
     }
   }
 
@@ -257,17 +264,49 @@ export const Cards = styled.div`
     
     top: -210px;
     left: 45px;
-    @media only screen and (min-width: 200px) and (max-width: 800px) {
-      top: -395px!important;
+
+    @media only screen and (min-width: 1083px) and (max-width: 1100px) {
+      top: -250px!important;
+      left: 130px!important;
     }
 
-    @media only screen and (min-width: 593px) and (max-width: 800px) {
-      top: -400px!important;
-      left: -14px!important;
+    @media only screen and (min-width: 200px) and (max-width: 1200px) {
+      top: -250px!important;
+      left: 13  0px!important;
     }
 
-    @media only screen and (min-width: 700px) and (max-width: 800px) {
+    @media only screen and (min-width: 200px) and (max-width: 192px) {
+      top: -250px!important;
+      left: 150px!important;
+    }
+
+    @media only screen and (min-width: 593px) and (max-width: 900px) {
+      top: -450px!important;
+      left: 45px!important;
+    }
+
+
+
+    /* @media only screen and (min-width: 700px) and (max-width: 800px) {
       left: 24px!important;
+    } */
+
+    
+    @media only screen and (min-width: 985px) and (max-width: 1160px) {
+      left: 145px!important;
+    }
+
+    @media only screen and (min-width: 850px) and (max-width: 900px) {
+      left: 45px!important;
+
+      top: -450px!important;
+    }
+
+
+    @media only screen and (min-width: 800px) and (max-width: 860px) {
+      left: 45px!important;
+      
+      top: -250px!important;
     }
 
     @media only screen and (min-width: 300px) and (max-width: 800px) {
@@ -275,14 +314,26 @@ export const Cards = styled.div`
     }
 
     @media only screen and (min-width: 690px) and (max-width: 760px) {
-      top: -360px!important;
-      left: 0px!important;
+      top: -400px!important;
+      left: 25px!important;
     }
 
-    @media only screen and (min-width: 340px) and (max-width: 572px) {
+
+    @media only screen and (min-width: 600px) and (max-width: 700px) {
+      top: -400px!important;
+      left: -5px!important;
+    
+    }
+
+    @media only screen and (min-width: 340px) and (max-width: 590px) {
+      top: -420px!important;
       left: -40px!important;
     }
     
+    @media only screen and (min-width: 790px) and (max-width: 900px) {
+      top: -490px!important;
+    }
+
     @media only screen and (min-width: 340px) and (max-width: 475px) {
       top: -340px!important;
     }
