@@ -170,23 +170,23 @@ export const Container = styled.div`
         h1 {
             font-size: 30px;
             width: 100%;
-            top: 120px;
+            top: 90px;
             left: 13px;
         }
     
         p {
-            top: 305px;
+            top: 285px;
             left: 20px;
         }
         
         span {
             width: 90%;
-            top: 195px;
+            top: 175px;
             left: 13px;
         }
 
         .arrowDown {
-            top: 310px;
+            top: 290px;
             left: 150px;
         }
     }
