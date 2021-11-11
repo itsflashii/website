@@ -37,20 +37,20 @@ export const Container = styled.div`
         left: 160px;
     }
 
-    @media only screen and (min-width: 1080px) and (max-width: 1167px) {
-      
+    @media only screen and (min-width: 1210px) and (max-width: 1230px) {
+        /*margin-top: 200px;*/
 
         h1 {
-            left: 505px;
+            left: 525px;
         }
 
         p {
-            left: 505px;
+            left: 525px;
         }
     }
 
-    @media only screen and (min-width: 986px) and (max-width: 1080px) {
-       
+    @media only screen and (min-width: 1010px) and (max-width: 1210px) {
+        /*margin-top: 200px;*/
 
         h1 {
             left: 400px;
@@ -63,33 +63,31 @@ export const Container = styled.div`
 
         img {
             width: 250px;
+            left: 120px;
         }
     }
 
 
-    @media only screen and (min-width: 0px) and (max-width: 985px) {
-  
 
+    @media only screen and (min-width: 0px) and (max-width: 1010px) {
         img {
             display: none;
         }
     }
 
-    @media only screen and (min-width: 660px) and (max-width: 986px) {
-     
+    @media only screen and (min-width: 705px) and (max-width: 1010px) {
 
         h1 {
             left: 27%;
         }
 
         p {
-            width: 450px;
-
+            width: 550px;
             left: 27%;
         }
     }
 
-    @media only screen and (min-width: 496px) and (max-width: 660px) {
+    @media only screen and (min-width: 496px) and (max-width: 705px) {
         margin-top: -250px;
 
         h1 {
@@ -129,9 +127,9 @@ export const Container = styled.div`
         }
 
         p {
-            width: 100%;
+            width: 90%;
             font-size: 13px;
-            top: 85px;
+            top: -5px;
             left: 10px;
         }
     }
@@ -149,28 +147,42 @@ export const Cards = styled.div`
     top: -150px;
     left: 465px;
 
+    @media only screen and (min-width: 1210px) and (max-width: 1230px) {
+        left: 433px;
+    }
 
-    @media only screen and (min-width: 660px) and (max-width: 986px) {
-        left: 18%;
-        top: -53px;
+    @media only screen and (min-width: 1185px) and (max-width: 1210px) {
+        left: 322px;
+    }
+
+    @media only screen and (min-width: 1085px) and (max-width: 1185px) {
+        left: 393px;
+    }
+
+    @media only screen and (min-width: 1010px) and (max-width: 1085px) {
+        left: 413px;
+    }
+
+    @media only screen and (min-width: 705px) and (max-width: 1010px) {
+        left: 30%;
         width: 100px;
     }
 
-    @media only screen and (min-width: 496px) and (max-width: 660px) {
+    @media only screen and (min-width: 496px) and (max-width: 705px) {
         left: 8%;
-        top: -53px;
+        top: -145px;
         width: 100px;
     }
 
     @media only screen and (min-width: 395px) and (max-width: 496px) {
         left: -30px;
-        top: -53px;
+        top: -175px;
         width: 100px;
     }
 
     @media only screen and (min-width: 300px) and (max-width: 395px) {
         left: -70px;
-        top: -53px;
+        top: -170px;
         width: 100px;
     }
 
