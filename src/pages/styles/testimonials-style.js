@@ -44,6 +44,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 546px) and (max-width: 846px) {
 
     h1 {
+      font-size: 27px;
       width: 100%!important;
       left: 50px;
     }
@@ -65,7 +66,7 @@ export const Container = styled.div`
     }
 
     p {
-      font-size: 17px;
+      font-size: 15px;
       width: 200px;
       left: 20px;
     }
@@ -81,7 +82,7 @@ export const Container = styled.div`
     }
 
     p {
-      font-size: 15px;
+      font-size: 14px;
       width: 200px;
       left: 20px;
     }

@@ -74,7 +74,7 @@ export const Container = styled.div`
     p {
       left: 30px;
       width: 470px;
-      font-size: 18px;
+      font-size: 14px;
     }
 
   }
@@ -123,7 +123,7 @@ export const Products = styled.div`
     height: 100px;
   }
 
-  @media only screen and (min-width: 600px) and (max-width: 800px) {
+  @media only screen and (min-width: 600px) and (max-width: 745px) {
     img {
       width: 130px;
       height: 140px;
