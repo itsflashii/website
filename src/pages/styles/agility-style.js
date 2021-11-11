@@ -165,25 +165,46 @@ export const Cards = styled.div`
 
     @media only screen and (min-width: 705px) and (max-width: 1010px) {
         left: 30%;
-        width: 100px;
+        width: 80%;
+    
+        p {
+
+            width: 100%;
+        }
     }
 
     @media only screen and (min-width: 496px) and (max-width: 705px) {
         left: 8%;
         top: -145px;
-        width: 100px;
+        width: 80%;
+    
+        p {
+
+            width: 100%;
+        }
     }
 
     @media only screen and (min-width: 395px) and (max-width: 496px) {
         left: -30px;
         top: -175px;
-        width: 100px;
+        width: 80%;
+    
+        p {
+
+            width: 100%;
+        }
+
     }
 
     @media only screen and (min-width: 300px) and (max-width: 395px) {
         left: -70px;
         top: -170px;
-        width: 100px;
+        width: 80%;
+    
+        p {
+            border: 1px solid blue;
+            width: 100%;
+        }
     }
 
 `;

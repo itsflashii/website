@@ -128,7 +128,7 @@ export const Container = styled.div`
     height: 850px;
 
     h1 {
-      width: 90%!important;
+      width: 70%!important;
       top: 100px;
       left: 135px;
     }
@@ -144,7 +144,7 @@ export const Container = styled.div`
     height: 860px;
 
     h1 {
-      width: 90%!important;
+      width: 70%!important;
       left: 92px;
     }
 
@@ -156,7 +156,7 @@ export const Container = styled.div`
   @media only screen and (min-width: 690px) and (max-width: 798px) {
     height: 800px;
     h1 {
-      width: 90%!important;
+      width: 70%!important;
       left: 115px;
     }
 
@@ -173,7 +173,7 @@ export const Container = styled.div`
 
     h1 {
       font-size: 27px;
-      width: 90%!important;
+      width: 70%!important;
       left: 85px;
     }
 
@@ -190,7 +190,7 @@ export const Container = styled.div`
     height: 800px;
     h1 {
       font-size: 27px;
-      width: 90%!important;
+      width: 70%!important;
       left: 100px;
     }
 
@@ -206,7 +206,7 @@ export const Container = styled.div`
     height: 800px;
     h1 {
       font-size: 27px;
-      width: 90%!important;
+      width: 70%!important;
 
       left: 50px;
     }
@@ -225,7 +225,7 @@ export const Container = styled.div`
 
     h1 {
       font-size: 27px;
-      width: 60%!important;
+      width: 50%!important;
       left: 34px;
     }
 
@@ -241,7 +241,7 @@ export const Container = styled.div`
 
     h1 {
       font-size: 27px;
-      width: 90%!important;
+      width: 70%!important;
 
       left: 30px;
     }
