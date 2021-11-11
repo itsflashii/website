@@ -261,7 +261,6 @@ export const Cards = styled.div`
     flex-direction: row;
     flex-wrap: wrap;
     width: 50%!important;
-    border: 1px solid green;
 
     
     top: -210px;
@@ -280,6 +279,10 @@ export const Cards = styled.div`
     @media only screen and (min-width: 200px) and (max-width: 192px) {
       top: -250px!important;
       left: 150px!important;
+      
+      p { 
+        width: 40%!important;
+      }
     }
 
     @media only screen and (min-width: 593px) and (max-width: 900px) {
@@ -330,6 +333,12 @@ export const Cards = styled.div`
     @media only screen and (min-width: 340px) and (max-width: 590px) {
       top: -420px!important;
       left: -40px!important;
+      width: 90%!important;
+
+
+      p { 
+        width: 90%!important;
+      }
     }
     
     @media only screen and (min-width: 790px) and (max-width: 900px) {
@@ -338,24 +347,65 @@ export const Cards = styled.div`
 
     @media only screen and (min-width: 340px) and (max-width: 475px) {
       top: -340px!important;
+
+      width: 90%!important;
+
+
+      p { 
+        width: 90%!important;
+      }
+
     }
 
     @media only screen and (min-width: 200px) and (max-width: 395px) {
       left: -75px!important;
+
+      width: 90%!important;
+
+
+      p { 
+        width: 90%!important;
+      }
+      
     }
 
     @media only screen and (min-width: 200px) and (max-width: 430px) {
       left: -50px!important;
       top: -350px!important;
+
+
+      width: 90%!important;
+
+
+      p { 
+        width: 90%!important;
+      }
+
     }
 
     @media only screen and (min-width: 300px) and (max-width: 700px) {
       top: -230px;
+
+      width: 90%!important;
+
+
+      p { 
+        width: 90%!important;
+      }
+      
     }
 
     @media only screen and (min-width: 460px) and (max-width: 569px) {
       top: -245px;
       left: -10px;
+
+
+      width: 90%!important;
+
+
+      p { 
+        width: 90%!important;
+      }
     }
 
 
