@@ -35,7 +35,7 @@ export const Container = styled.div`
   img {
     position: relative;
     width: 500px;
-    height: 350.25px;
+    height: 340.25px;
     margin-right: 90px;
     
   }
@@ -105,7 +105,7 @@ export const Products = styled.div`
   img {
     cursor: pointer;
     width: 150px;
-    height: 180px;
+    height: 170px;
    
     margin-left: 20px;
     margin-bottom: 30px;
