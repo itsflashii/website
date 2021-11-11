@@ -260,7 +260,8 @@ export const Cards = styled.div`
     position: relative;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 90%!important;
+    width: 50%!important;
+    border: 1px solid green;
 
     
     top: -210px;
