@@ -78,7 +78,6 @@ export const Container = styled.div`
         height: 522px;
 
         h1 {
-            width: 312px;
             left: 40px;
         }
 

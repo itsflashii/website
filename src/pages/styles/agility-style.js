@@ -208,7 +208,7 @@ export const Cards = styled.div`
         width: 80%;
     
         p {
-            width: 100%;
+            width: 275px;
         }
     }
 
