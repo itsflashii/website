@@ -32,33 +32,33 @@ function App() {
             <Landing 
               bgVideo={backgroundVideo}
               largeText='Versatilidade na web, mobile & desktop.'
-              smallText='Aqui sua imaginação se torna realidade. Projetos, sonhos são o que movem a grande engrenagem da Varsel. venha crescer e se tornar a melhor em sua área.' 
+              smallText='Aqui sua imaginação se torna realidade. Projetos, sonhos são o que movem a grande engrenagem da Varsel. Venha crescer e se tornar a melhor em sua área.' 
               ArrowSmallText='Descubra mais'
             />
             <About
               
               largeText='Por que contratar a Varsel ?'
-              smallText='A pergunta mas certa seria, "Por que não contratar a Varsel. Temos uma equipe qualificada e flexível a todo tipo de empreendimento e projeto, contando com a nossa versatilidade e qualidade. todos nossos projetos e automações são feito utilizando as ferramentas mais atualizadas do mercado. Melhorando e otimizando ainda mais seu projeto. Ainda não está satisfeito? Tem mais, todos passam por um selo de qualidade & segurança de vários profissionais da área. O que você está esperando? venha fazer parte do nosso mundo.'
+              smallText='A pergunta mas certa seria, "Por que não contratar a Varsel. Temos uma equipe qualificada e flexível a todo tipo de empreendimento e projeto, contando com a nossa versatilidade e qualidade. Todos nossos projetos e automações são feitos utilizando as ferramentas mais atualizadas do mercado. Melhorando e otimizando ainda mais seu projeto. Ainda não está satisfeito? Tem mais, todos passam por um selo de qualidade & segurança de vários profissionais da área. O que você está esperando? Venha fazer parte do nosso mundo.'
               propImage={MobileLogin}
               text1='Trabalho em equipe.'
               text2='Projetos em larga escala.'
-              msg1='A reunião de talentos especializados em sua área, com características diferentes, tornam o todo mais completo e mais capacitado para chegar até a satisfação dos nossos clientes.'
-              msg2='Já tem um projeto bigdata e quer recrialo? sem problemas, a varsel tem o total suporte de projetos em larga escala. Nós aguentamos o tranco'
+              msg1='A reunião de talentos especializados em sua área, com características diferentes, torna o todo mais completo e mais capacitado para chegar até a satisfação dos nossos clientes'
+              msg2='Já tem um projeto bigdata e quer recria-lo? sem problemas, a varsel tem o total suporte de projetos em larga escala. Nós suportamos o tranco!'
             />
             <Agility 
               largeText='Agilidade & Qualidade.'
-              smallText='A produtividade e a base para um bom projeto, sendo influenciada principalmente pelo um bom trabalho. Aqui não pode ser diferente não e mesmo. Trazemos a tranquilidade de um projeto refinado & ágil, sendo moldurado pelas ideias de nosso clientes contratantes.'
+              smallText='A produtividade e a base para um bom projeto, sendo influenciada principalmente pelo um bom trabalho. Aqui não pode ser diferente não e mesmo. Trazemos a tranquilidade de um projeto refinado & ágil, sendo moldurado pelas idéias de nossos clientes contratantes.'
               propImage={AgilityLarge}
               front='Trabalhando com as melhores tecnologias do mercado, nós temos uma equipe dedicada somente ao front-end do seu website.'
               back='Que tal fazer a integração de outra plataforma em seu app? Você escolhe, nós fazemos.'
-              uix='Um design unico para seu site, nos mostre sua ideia. nós criamos oque você pensa.'
-              edit='Expanda a sua ideia, que tal um trailer do seu projeto?'
+              uix='Um design único para seu site, nos mostre sua idéia. nós criamos oque você pensa.'
+              edit='Expanda a sua idéia, que tal um vídeo apresentação do seu projeto?'
 
 
             />
             <Design 
               largeText='Design de acordo com seu gosto & marca.'
-              smallText='“você nunca terá uma segunda chance de causar uma primeira boa impressão”. Proporcionar experiências incríveis, são sentimentos únicos na vida de um bom desenvolvedor a atenção a cada detalhe é a mágica por trás disso. Venha se dedicar ao seu sonho, junto com a Varsel.'
+              smallText='“Você nunca terá uma segunda chance de causar uma primeira boa impressão”. Proporcionar experiências incríveis, são sentimentos únicos na vida de um bom desenvolvedor a atenção a cada detalhe é a mágica por trás disso. Venha se dedicar ao seu sonho, junto com a Varsel'
               propImage={Phone}
             />
             <Testimonials
