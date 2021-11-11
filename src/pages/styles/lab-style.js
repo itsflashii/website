@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 
-    height: 90px;
+    height: 0px;
 
 
     h1 {
