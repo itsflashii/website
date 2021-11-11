@@ -126,8 +126,8 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 200px) and (max-width: 892px) {
     height: 850px;
-
-    h1 {
+    top: -80px!important;
+    h1 {  
       width: 70%!important;
       top: 100px;
       left: 135px;
@@ -222,7 +222,7 @@ export const Container = styled.div`
 
   @media only screen and (min-width: 0px) and (max-width: 490px) {
     height: 900px;
-  
+    top: -80px!important;
     h1 {
       font-size: 27px;
       width: 50%!important;
