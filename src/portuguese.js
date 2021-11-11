@@ -32,7 +32,7 @@ function App() {
             <Landing 
               bgVideo={backgroundVideo}
               largeText='Versatilidade na web, mobile & desktop.'
-              smallText='Aqui sua imaginação se torna realidade. Projetos, sonhos são o que movem a grande engrenagem da Varsel. Venha crescer e se tornar a melhor em sua área.' 
+              smallText='Aqui sua imaginação se torna realidade. Projetos, sonhos são o que movem a grande engrenagem da Varsel, venha crescer e se tornar a melhor em sua área.' 
               ArrowSmallText='Descubra mais'
             />
             <About
