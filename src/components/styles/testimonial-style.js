@@ -119,7 +119,7 @@ export const TestiMonialCard = styled.div`
 
 export const BoxRatings = styled.div`
     position: absolute;
-    top: 165px;
+    top: 173px;
     right: 0;
     margin-right: 15px;
 `;
