@@ -99,6 +99,7 @@ export const Container = styled.div`
         p {
             width: 421px;
             font-size: 14px;
+            top: -25px;
             left: 15%;
       
         }
@@ -107,8 +108,9 @@ export const Container = styled.div`
     @media only screen and (min-width: 325px) and (max-width: 496px) {
         margin-top: -250px;
         h1 {
-            width: 70%;
+            width: 91%;
             font-size: 26px;
+            top: -40px;
             left: 15px;
         }
 
@@ -121,11 +123,11 @@ export const Container = styled.div`
         }
     }
 
-    @media only screen and (min-width: 285px) and (max-width: 362px) {
+    @media only screen and (min-width: 285px) and (max-width: 325px) {
         margin-top: -200px;
 
         h1 {
-            width: 70%;
+            width: 96%;
             font-size: 25px;
             left: 10px;
         }
@@ -133,7 +135,7 @@ export const Container = styled.div`
         p {
             width: 90%;
             font-size: 13px;
-            top: -5px;
+            top: -20px;
             left: 10px;
         }
     }
