@@ -286,7 +286,7 @@ export const Cards = styled.div`
     }
 
     @media only screen and (min-width: 593px) and (max-width: 900px) {
-      top: -450px!important;
+      top: -480px!important;
       left: 45px!important;
     }
 
@@ -304,7 +304,7 @@ export const Cards = styled.div`
     @media only screen and (min-width: 850px) and (max-width: 900px) {
       left: 45px!important;
 
-      top: -450px!important;
+      top: -480px!important;
     }
 
 
@@ -332,7 +332,7 @@ export const Cards = styled.div`
     }
 
     @media only screen and (min-width: 340px) and (max-width: 590px) {
-      top: -450px!important;
+      top: -480px!important;
       left: -40px!important;
       width: 90%!important;
 
@@ -347,7 +347,7 @@ export const Cards = styled.div`
     }
 
     @media only screen and (min-width: 340px) and (max-width: 475px) {
-      top: -450px!important;
+      top: -480px!important;
       width: 90%!important;
 
 
@@ -371,7 +371,7 @@ export const Cards = styled.div`
 
     @media only screen and (min-width: 200px) and (max-width: 430px) {
       left: -50px!important;
-      top: -450px!important;
+      top: -480px!important;
 
 
       width: 90%!important;
@@ -384,7 +384,7 @@ export const Cards = styled.div`
     }
 
     @media only screen and (min-width: 300px) and (max-width: 700px) {
-      top: -450px!important;
+      top: -480px!important;
       width: 90%!important;
 
 
