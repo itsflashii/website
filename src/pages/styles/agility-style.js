@@ -100,6 +100,7 @@ export const Container = styled.div`
             width: 421px;
             font-size: 14px;
             left: 15%;
+      
         }
     }
 
@@ -115,6 +116,8 @@ export const Container = styled.div`
             width: 90%;
             font-size: 13px;
             left: 15px;
+
+            top: 10px;
         }
     }
 
@@ -203,7 +206,6 @@ export const Cards = styled.div`
         width: 80%;
     
         p {
-            border: 1px solid blue;
             width: 100%;
         }
     }
