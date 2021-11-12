@@ -19,9 +19,9 @@ const Porti = (props) => {
       <img src={Computer} alt="Computador" align="right" />
     </Container>
       <Products>
-          <a href={link1}><img src={Product1} alt="Product" /></a>
           <a href={link2}><img src={Product2} alt="Product" /></a>
           <a href={link3}><img src={Product3} alt="Product" /></a>
+          <a href={link1}><img src={Product1} alt="Product" /></a>
           <a href={link4}><img src={Product4} alt="Product" /></a>
           <a href={link5}><img src={Product5} alt="Product" /></a>
           <a href={link6}><img src={Product6} alt="Product" /></a>

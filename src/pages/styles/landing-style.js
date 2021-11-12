@@ -45,6 +45,7 @@ export const Container = styled.div`
     }
 
     span {
+        cursor: pointer !important;
         position: absolute;
         width: 500px;
         color: #737380;
@@ -53,6 +54,7 @@ export const Container = styled.div`
         font-weight: 400;
         top: 280px;
         left: 145px;
+        z-index: 1;
     }
 
     p {
@@ -70,7 +72,8 @@ export const Container = styled.div`
         position: absolute;
         top: 385px;
         left: 270px;
-       
+        z-index: 1;
+        cursor: pointer;
         -webkit-animation: sdb04 1.5s infinite;
         animation: sdb04 2.5s infinite;
     }
