@@ -70,11 +70,11 @@ function App() {
               largeText='Conheça alguns dos nossos principais trabalhos.'
               smallText='Faça parte desta lista também, entre em contato com a Varsel.'
               link2='https://jelly-raisin-7a6.notion.site/SEV7N-CLIENT-bcab7d87bb7046e99902137583a67256'
-              link1='#1'
+              link1='https://jelly-raisin-7a6.notion.site/Go-Bank-58aef4059f944c1094a770951ed733ec'
               link3='https://jelly-raisin-7a6.notion.site/Sunrise-Roleplay-70d245f94fb24d28b15fcf004c6b6382'
-              link4='#2'
-              link5='#3'
-              link6='#4'
+              link4='https://jelly-raisin-7a6.notion.site/Ops-a6afc3ae82b94b1b85eab194158bf071'
+              link5='https://jelly-raisin-7a6.notion.site/Ops-a6afc3ae82b94b1b85eab194158bf071'
+              link6='https://jelly-raisin-7a6.notion.site/Ops-a6afc3ae82b94b1b85eab194158bf071'
             />
             
             <Lab 
