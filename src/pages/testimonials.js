@@ -23,11 +23,11 @@ const Testimonials = (props) => {
                     />
                     
                     <Testimonial 
-                    message="“Show de bola!! Estava a procura de uma empresa que conseguisse fazer alguns sistemas para meu servidor. Atendimento 10/10 sem problemas, continuem assim.”"
-                    person="Caio Castro"
-                    job="Owner | Sunrise Roleplay"
+                    message="“Muito prestativo, profissional, e atencioso. Recomendo!”"
+                    person="Davi S."
+                    job="Fatos da Bolsa"
                     rating="5"
-                    avatar='https://ui-avatars.com/api/?background=0570D2&color=fff&name=Caio+Castro'
+                    avatar='https://ui-avatars.com/api/?background=0570D2&color=fff&name=Davi+Souza'
                     />
                     
                     <Testimonial 
