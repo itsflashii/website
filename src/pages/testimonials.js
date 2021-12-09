@@ -21,14 +21,7 @@ const Testimonials = (props) => {
                     avatar='https://ui-avatars.com/api/?background=D20528&color=fff&name=Lurdes+Canabarro'
                     className="test1"
                     />
-                    
-                    <Testimonial 
-                    message="“Muito prestativo, profissional, e atencioso. Recomendo!”"
-                    person="Davi S."
-                    job="Fatos da Bolsa"
-                    rating="5"
-                    avatar='https://ui-avatars.com/api/?background=0570D2&color=fff&name=Davi+Souza'
-                    />
+                   
                     
                     <Testimonial 
                     message='"Precisei de uma integração nova em minha plataforma, obrigado Varsel pelo atendimento & suporte."'
@@ -44,6 +37,14 @@ const Testimonials = (props) => {
                     job="Central  Calçados"
                     rating="5"
                     avatar="https://ui-avatars.com/api/?name=Samanta+Bueno"
+                    />
+        
+                    <Testimonial 
+                    message="“Muito prestativo, profissional, e atencioso. Recomendo!”"
+                    person="Davi S."
+                    job="Fatos da Bolsa"
+                    rating="5"
+                    avatar='https://ui-avatars.com/api/?background=0570D2&color=fff&name=Davi+Souza'
                     />
                 </ContainerTestimonail>
         </>
