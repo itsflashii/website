@@ -77,7 +77,7 @@ function App() {
             
             <Lab 
               largeText='More than'
-              CountBuss='260'
+              CountBuss='262'
               largeText2='companies have hired Varsel.'
               SmallText='Be part of this list, contact us and make a quote.'
               buttonTxt='Send an email'
