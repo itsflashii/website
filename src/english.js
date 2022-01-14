@@ -93,7 +93,7 @@ function App() {
               Crea='Creators'
               Porti='Portifolio'
               Trab='Work with us'
-              Dir='© Varsel, 2021. All rights reserved.'
+              Dir='© Varsel, 2022. All rights reserved.'
             />
           
         </>
