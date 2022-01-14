@@ -94,7 +94,7 @@ function App() {
               Crea='Criadores'
               Porti='Portifolio'
               Trab='Trabalhe Conosco'
-              Dir='© Varsel, 2021. Todos os direitos reservados.'
+              Dir='© Varsel, 2022. All rights reserved.'
             />
           
         </>
