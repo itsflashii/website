@@ -93,7 +93,7 @@ function App() {
               Crea='Creadoras'
               Porti='Portifolio'
               Trab='Trabaja con nosotras'
-              Dir='© Varsel, 2021. Reservados todos los derechos.'
+              Dir='© Varsel, 2022. All rights reserved.'
             />
           
         </>
