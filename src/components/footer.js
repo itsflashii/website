@@ -23,7 +23,7 @@ const Footer = (props) => {
     
     <img src={svgLogo} alt="Varsel Logo" />
     <h5 className='Email'>Email: contato.varsel@gmail.com</h5>
-    <h5 className='Fone' >Campina Grande: (83) 8689-3506 | São Paulo: (11) 97696-3786</h5>
+    <h5 className='Fone' >Contato: (11) 97382-0893</h5>
     {/* <h2>{Duv}</h2>
       <ul>
         <li>
