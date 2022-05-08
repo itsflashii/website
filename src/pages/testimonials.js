@@ -21,7 +21,16 @@ const Testimonials = (props) => {
                     avatar='https://ui-avatars.com/api/?background=D20528&color=fff&name=Lurdes+Canabarro'
                     className="test1"
                     />
-                   
+        
+                    <Testimonial 
+                    message="“Profissionais de alto nível técnico. Bom atendimento. Faria negócio novamente.”"
+                    person="Vagner D."
+                    job="Winnergram"
+                    rating="4"
+                    avatar='https://ui-avatars.com/api/?background=D20528&color=fff&name=Lurdes+Canabarro'
+                    className="test1"
+                    />
+                     
                     
                     <Testimonial 
                     message='"Precisei de uma integração nova em minha plataforma, obrigado Varsel pelo atendimento & suporte."'
